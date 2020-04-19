@@ -1,9 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\TestProject\\Plugins\\FrostPainter\\Source\\FrostPainter\\FrostPainter.Build.cs",
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\TestProject\\Source\\TestProject.Target.cs",
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\TestProject\\Source\\TestProjectEditor.Target.cs"
+		"D:\\FrostPainterTool\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
+		"D:\\FrostPainterTool\\TestProject\\Source\\TestProject.Target.cs",
+		"D:\\FrostPainterTool\\TestProject\\Source\\TestProjectEditor.Target.cs"
 	],
-	"EngineVersion": "4.24.1"
+	"EngineVersion": "4.24.3"
 }
