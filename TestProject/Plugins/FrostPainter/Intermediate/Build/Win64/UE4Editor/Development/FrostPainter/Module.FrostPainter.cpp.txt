@@ -1,0 +1,17 @@
+C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Definitions.FrostPainter.h
+C:/Users/Amelia/Desktop/FrostPainterTool/TestProject/Plugins/FrostPainter/Source/FrostPainter/Private/FrostPainter.cpp
+C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainter.h
+C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainterEdMode.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EdMode.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EditorModeRegistry.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Tools/UEdMode.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\InteractiveToolsFramework\Public\InputState.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InteractiveToolsFramework\InputState.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UEdMode.generated.h
+C:/Users/Amelia/Desktop/FrostPainterTool/TestProject/Plugins/FrostPainter/Source/FrostPainter/Private/FrostPainterEdMode.cpp
+C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainterEdModeToolkit.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Toolkits/ToolkitManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EditorModeManager.h
+C:/Users/Amelia/Desktop/FrostPainterTool/TestProject/Plugins/FrostPainter/Source/FrostPainter/Private/FrostPainterEdModeToolkit.cpp
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Selection.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Selection.generated.h
