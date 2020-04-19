@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FrostPainter_Alt.cpp.obj": [
+			"FrostPainter_Alt.cpp.obj",
+			"FrostPainter_AltCommands.cpp.obj",
+			"FrostPainter_AltStyle.cpp.obj"
+		]
+	}
+}

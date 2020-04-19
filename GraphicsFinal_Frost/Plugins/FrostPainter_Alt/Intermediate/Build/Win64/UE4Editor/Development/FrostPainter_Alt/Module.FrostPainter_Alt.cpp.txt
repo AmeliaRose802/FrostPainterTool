@@ -1,0 +1,25 @@
+D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Definitions.FrostPainter_Alt.h
+D:/FrostPainterTool/GraphicsFinal_Frost/Plugins/FrostPainter_Alt/Source/FrostPainter_Alt/Private/FrostPainter_Alt.cpp
+D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public\FrostPainter_Alt.h
+D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public\FrostPainter_AltStyle.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public\FrostPainter_AltCommands.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\LevelEditor\Public\ILevelEditor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\LevelEditor\Public\ViewportTypeDefinition.h
+D:/FrostPainterTool/GraphicsFinal_Frost/Plugins/FrostPainter_Alt/Source/FrostPainter_Alt/Private/FrostPainter_AltCommands.cpp
+D:/FrostPainterTool/GraphicsFinal_Frost/Plugins/FrostPainter_Alt/Source/FrostPainter_Alt/Private/FrostPainter_AltStyle.cpp
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Slate/SlateGameResources.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
