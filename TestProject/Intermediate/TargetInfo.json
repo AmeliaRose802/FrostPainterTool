@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TestProject",
+			"Path": "C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\TestProject\\Source\\TestProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TestProjectEditor",
+			"Path": "C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\TestProject\\Source\\TestProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
