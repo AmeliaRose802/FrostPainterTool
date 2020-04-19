@@ -973,3 +973,53 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.19-14.14.08:063][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.19-14.14.08:083][308]LogUObjectHash: Compacting FUObjectHashTables data took  18.54ms
 [2020.04.19-14.14.08:096][309]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.04.19-14.20.50:688][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.19-14.20.50:738][990]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.04.19-14.21.00:613][541]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.19-14.22.51:326][794]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.04.19-14.22.51:906][794]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/TestProject/Saved/Minimal_Default_Auto1B0E360644E00B9376784AE8101D0DA5D.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/TestProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2020.04.19-14.22.51:912][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.643
+[2020.04.19-14.22.51:913][794]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.643
+[2020.04.19-14.32.24:747][815]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.19-14.36.27:235][253]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -TargetType=Editor -Plugin="C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\FrostPainter.uplugin" -Project="C:/Users/Amelia/Desktop/FrostPainterTool/TestProject/TestProject.uproject" -Progress -NoHotReloadFromIDE
+[2020.04.19-14.36.30:305][253]Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Amelia\Desktop\FrostPainterTool).
+[2020.04.19-14.36.30:506][253]Invalidating makefile for TestProjectEditor (FrostPainter.uplugin has been added)
+[2020.04.19-14.36.32:620][253]@progress push 5%
+[2020.04.19-14.36.32:623][253]Parsing headers for TestProjectEditor
+[2020.04.19-14.36.32:724][253]  Running UnrealHeaderTool "C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\TestProject.uproject" "C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\TestProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.19-14.36.46:720][253]Reflection code generated for TestProjectEditor in 14.0107782 seconds
+[2020.04.19-14.36.46:723][253]@progress pop
+[2020.04.19-14.36.47:628][253]Building TestProjectEditor...
+[2020.04.19-14.36.47:628][253]Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.19-14.36.47:628][253][Upgrade]
+[2020.04.19-14.36.47:628][253][Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.19-14.36.47:628][253][Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.19-14.36.47:628][253][Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.19-14.36.47:628][253][Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.19-14.36.47:629][253][Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in TestProjectEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.19-14.36.47:629][253][Upgrade]
+[2020.04.19-14.36.47:729][253]Building 6 actions with 4 processes...
+[2020.04.19-14.36.47:729][253]  @progress 'Compiling C++ source code...' 0%
+[2020.04.19-14.36.48:032][253]  @progress 'Compiling C++ source code...' 17%
+[2020.04.19-14.36.48:032][253]  [1/6] Default.rc2
+[2020.04.19-14.37.22:558][253]  @progress 'Compiling C++ source code...' 33%
+[2020.04.19-14.37.22:558][253]  [2/6] SharedPCH.UnrealEd.cpp
+[2020.04.19-14.37.26:585][253]  @progress 'Compiling C++ source code...' 50%
+[2020.04.19-14.37.26:585][253]  [3/6] Module.FrostPainter.cpp
+[2020.04.19-14.37.27:190][253]  @progress 'Compiling C++ source code...' 67%
+[2020.04.19-14.37.27:190][253]  [4/6] UE4Editor-FrostPainter.lib
+[2020.04.19-14.37.27:190][253]     Creating library C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter.lib and object C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter.exp
+[2020.04.19-14.37.28:095][253]  @progress 'Compiling C++ source code...' 83%
+[2020.04.19-14.37.28:095][253]  [5/6] UE4Editor-FrostPainter.dll
+[2020.04.19-14.37.28:095][253]     Creating library C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter.suppressed.lib and object C:\Users\Amelia\Desktop\FrostPainterTool\TestProject\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter.suppressed.exp
+[2020.04.19-14.37.28:598][253]  @progress 'Compiling C++ source code...' 100%
+[2020.04.19-14.37.28:598][253]  [6/6] TestProjectEditor.target
+[2020.04.19-14.37.28:598][253]Total time in Parallel executor: 40.91 seconds
+[2020.04.19-14.37.28:598][253]Total execution time: 61.08 seconds
+[2020.04.19-14.37.28:738][253]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Amelia/Desktop/FrostPainterTool/TestProject/TestProject.uproject" -game -rocket -progress
+[2020.04.19-14.37.29:557][253]Discovering modules, targets and source code for project...
+[2020.04.19-14.37.33:483][253]Binding IntelliSense data...
+[2020.04.19-14.37.38:138][253]Binding IntelliSense data... 100%
+[2020.04.19-14.37.38:138][253]Writing project files...
+[2020.04.19-14.37.46:804][253]Writing project files... 100%
+[2020.04.19-14.37.50:184][253]LogSlate: Window 'New Plugin' being destroyed

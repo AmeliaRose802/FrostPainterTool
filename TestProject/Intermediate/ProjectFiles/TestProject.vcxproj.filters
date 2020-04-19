@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TestProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C0482D8F-21C1-48E5-9463-8985D8BE0921}</UniqueIdentifier>
+      <UniqueIdentifier>{8771CE06-DC3D-49EF-950B-F3E2410B2A4F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TestProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0E5580DB-729F-49AB-AC4D-A256F97A882E}</UniqueIdentifier>
+      <UniqueIdentifier>{2B6C7299-F02C-4F83-9587-D98B370A0797}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,56 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{F69A6410-A2CD-4DE4-95B7-28E9968E210B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FrostPainter">
+      <UniqueIdentifier>{BD487A1B-EEA1-434D-A35E-FEEA00F3F14E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FrostPainter\Source">
+      <UniqueIdentifier>{F8A61E62-B371-4AB1-B4B5-DA5FB4791019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FrostPainter\Source\FrostPainter">
+      <UniqueIdentifier>{91A70B46-F261-4C2E-8B77-D6281291E2C1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FrostPainter\Source\FrostPainter\FrostPainter.Build.cs">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter</Filter>
+    </None>
+    <Filter Include="Plugins\FrostPainter\Source\FrostPainter\Private">
+      <UniqueIdentifier>{79C4F6DD-58DD-4530-825F-E30114F1BC24}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Private\FrostPainter.cpp">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Private\FrostPainterEdMode.cpp">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Private\FrostPainterEdModeToolkit.cpp">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FrostPainter\Source\FrostPainter\Public">
+      <UniqueIdentifier>{ADF453E6-0C66-4167-BB0A-8A7B4D9B23FB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainter.h">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainterEdMode.h">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainterEdModeToolkit.h">
+      <Filter>Plugins\FrostPainter\Source\FrostPainter\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\FrostPainter\FrostPainter.uplugin">
+      <Filter>Plugins\FrostPainter</Filter>
+    </None>
+    <Filter Include="Plugins\FrostPainter\Resources">
+      <UniqueIdentifier>{75C3191E-DC05-4D8B-9671-682F688BF76F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FrostPainter\Resources\Icon128.png">
+      <Filter>Plugins\FrostPainter\Resources</Filter>
+    </None>
     <Filter Include="Source\TestProject">
-      <UniqueIdentifier>{900EF027-1350-4B13-AF58-B6F0B4F46C06}</UniqueIdentifier>
+      <UniqueIdentifier>{C240605B-85C5-4773-80C4-8E53889A3FB5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TestProject\TestProject.Build.cs">
       <Filter>Source\TestProject</Filter>
