@@ -29,19 +29,19 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/Binaries/Win64/UE4Editor-FrostPainter_Alt.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/Binaries/Win64/UE4Editor-FrostPainter_Alt.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/FrostPainter/Binaries/Win64/UE4Editor-FrostPainter.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/FrostPainter/Binaries/Win64/UE4Editor-FrostPainter.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/Binaries/Win64/UE4Editor-FrostPainter_Alt.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/Binaries/Win64/UE4Editor-FrostPainter_Alt.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2041,11 +2041,11 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(ProjectDir)/Plugins/FrostPainter/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/FrostPainter/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2371,11 +2371,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/FrostPainter_Alt.uplugin",
+			"Path": "$(ProjectDir)/Plugins/FrostPainter/FrostPainter.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/FrostPainter/FrostPainter.uplugin",
+			"Path": "$(ProjectDir)/Plugins/FrostPainter_Alt/FrostPainter_Alt.uplugin",
 			"Type": "UFS"
 		},
 		{

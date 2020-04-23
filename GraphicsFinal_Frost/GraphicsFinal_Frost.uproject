@@ -7,7 +7,10 @@
 		{
 			"Name": "GraphicsFinal_Frost",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Blutility"
+			]
 		}
 	]
 }

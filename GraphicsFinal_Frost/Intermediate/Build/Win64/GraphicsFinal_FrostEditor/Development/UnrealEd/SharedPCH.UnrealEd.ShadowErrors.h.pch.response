@@ -257,11 +257,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd
-/Yc"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Fp"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
-"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.cpp"
-/Fo"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+/I D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd
+/Yc"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.cpp"
+/Fo"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

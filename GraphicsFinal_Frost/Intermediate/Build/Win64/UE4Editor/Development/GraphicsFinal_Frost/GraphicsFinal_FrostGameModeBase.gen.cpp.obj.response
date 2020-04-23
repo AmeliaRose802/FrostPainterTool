@@ -31,11 +31,19 @@
 /wd4838
 /we4668
 /I .
-/I D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Inc\GraphicsFinal_Frost
-/I D:\FrostPainterTool\GraphicsFinal_Frost\Source
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Blutility
+/I Editor
+/I Editor\Blutility\Classes
+/I Editor\Blutility\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
+/I Editor\EditorSubsystem\Public
+/I Editor\MainFrame\Public
+/I Editor\Documentation\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
+/I D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Inc\GraphicsFinal_Frost
+/I D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Source
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
@@ -101,7 +109,6 @@
 /I Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public
 /I Runtime\SignalProcessing\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
-/I Editor
 /I Programs\UnrealLightmass\Public
 /I Developer\Android\AndroidDeviceDetection\Public\Interfaces
 /I Editor\UnrealEd\Classes
@@ -109,7 +116,6 @@
 /I Editor\BspMode\Public
 /I Developer
 /I Developer\DirectoryWatcher\Public
-/I Editor\Documentation\Public
 /I Runtime\Projects\Public
 /I Runtime\SandboxFile\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
@@ -124,8 +130,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph
 /I Editor\BlueprintGraph\Classes
 /I Editor\BlueprintGraph\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
-/I Editor\EditorSubsystem\Public
 /I Runtime\Online
 /I Runtime\Online\HTTP\Public
 /I Runtime\UnrealAudio\Public
@@ -259,12 +263,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Inc\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.gen.cpp"
-/FI"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\Definitions.GraphicsFinal_Frost.h"
-/Fo"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.gen.cpp.obj"
+/FI"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Inc\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.gen.cpp"
+/FI"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\Definitions.GraphicsFinal_Frost.h"
+/Fo"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

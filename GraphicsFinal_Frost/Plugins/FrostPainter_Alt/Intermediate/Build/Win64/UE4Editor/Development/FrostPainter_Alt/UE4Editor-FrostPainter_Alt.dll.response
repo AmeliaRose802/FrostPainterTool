@@ -32,9 +32,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
-"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Module.FrostPainter_Alt.cpp.obj"
-"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Default.rc2.res"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Module.FrostPainter_Alt.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -68,8 +68,8 @@
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-/OUT:"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Binaries\Win64\UE4Editor-FrostPainter_Alt.dll"
-/IMPLIB:"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt.suppressed.lib"
-/PDB:"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Binaries\Win64\UE4Editor-FrostPainter_Alt.pdb"
+/OUT:"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Binaries\Win64\UE4Editor-FrostPainter_Alt.dll"
+/IMPLIB:"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt.suppressed.lib"
+/PDB:"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Binaries\Win64\UE4Editor-FrostPainter_Alt.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_FrostPainter_Alt

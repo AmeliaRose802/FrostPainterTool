@@ -31,7 +31,7 @@
 /wd4838
 /we4668
 /I .
-/I D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Source\FrostPainter\Private
+/I D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Source\FrostPainter\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -229,8 +229,8 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
-/I D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Source
-/I D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Source\FrostPainter\Public
+/I D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Source
+/I D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Source\FrostPainter\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -260,12 +260,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Yu"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Fp"D:\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
-"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Module.FrostPainter.cpp"
-/FI"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Definitions.FrostPainter.h"
-/Fo"D:\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Module.FrostPainter.cpp.obj"
+/FI"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Yu"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Module.FrostPainter.cpp"
+/FI"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Definitions.FrostPainter.h"
+/Fo"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\Module.FrostPainter.cpp.obj"
 /TP
 /GR-
 /W4
