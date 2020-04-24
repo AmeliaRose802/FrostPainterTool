@@ -1,4 +1,10 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
-  Invalidating makefile for FrostEditor (FrostEditor.Target.cs modified)
-  Target is up to date
-  Total execution time: 2.09 seconds
+﻿  Cleaning GraphicsFinal_Frost binaries...
+UnrealBuildTool : error : Unhandled exception: Tools.DotNETCommon.JsonParseException: Unable to parse D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\GraphicsFinal_Frost.uproject: Could not find token at index 373
+                             at Tools.DotNETCommon.JsonObject.Read(FileReference File) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\JsonObject.cs:line 57
+                             at UnrealBuildTool.ProjectDescriptor.FromFile(FileReference FileName) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\ProjectDescriptor.cs:line 184
+                             at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 520
+                             at UnrealBuildTool.RulesCompiler.CreateTargetRulesAssembly(FileReference ProjectFile, String TargetName, Boolean bSkipRulesCompile, Boolean bUsePrecompiled, FileReference ForeignPlugin) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 654
+                             at UnrealBuildTool.CleanMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\CleanMode.cs:line 88
+                             at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 517
+UnrealBuildTool : error : Remote compiling requires a server name. Use the editor (Project Settings > IOS) to set up your remote compilation settings.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Rebuild.bat" GraphicsFinal_Frost IOS DebugGame -Project="D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\GraphicsFinal_Frost.uproject" -WaitMutex -FromMsBuild" exited with code -1.

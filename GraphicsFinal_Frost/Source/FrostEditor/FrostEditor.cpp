@@ -1,16 +1,18 @@
-#include "FrostEditor.h"
 
+#include "FrostEditor.h"
+#include "Modules/ModuleManager.h"
+#include "Modules/ModuleInterface.h"
 
 IMPLEMENT_GAME_MODULE(FFrostEditorModule, FrostEditor);
 
 #define LOCTEXT_NAMESPACE "FrostEditor"
 
-void FFrostEditorModule::StartupModule()
+void FTutorialEditorModule::StartupModule()
 {
     UE_LOG(FrostEditor, Warning, TEXT("FrostEditor: Log Started"));
 }
 
-void FFrostEditorModule::ShutdownModule()
+void FTutorialEditorModule::ShutdownModule()
 {
     UE_LOG(FrostEditor, Warning, TEXT("FrostEditor: Log Ended"));
 }

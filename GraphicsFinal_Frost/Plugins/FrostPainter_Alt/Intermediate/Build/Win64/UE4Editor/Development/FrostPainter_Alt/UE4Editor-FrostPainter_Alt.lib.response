@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-FrostPainter_Alt.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\FrostEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
 "D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Module.FrostPainter_Alt.cpp.obj"
 "D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\Default.rc2.res"
 /OUT:"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt.lib"

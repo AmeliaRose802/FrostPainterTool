@@ -1,11 +1,6 @@
 {
 	"Targets": [
 		{
-			"Name": "FrostEditor",
-			"Path": "D:\\Graphics_Files\\FrostPainterTool\\GraphicsFinal_Frost\\Source\\FrostEditor.Target.cs",
-			"Type": "Editor"
-		},
-		{
 			"Name": "GraphicsFinal_Frost",
 			"Path": "D:\\Graphics_Files\\FrostPainterTool\\GraphicsFinal_Frost\\Source\\GraphicsFinal_Frost.Target.cs",
 			"Type": "Game"

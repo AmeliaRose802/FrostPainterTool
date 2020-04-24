@@ -12,13 +12,21 @@
 				"Blutility"
 			]
 		},
-		
 		{
-		
-		"Name": "FrostEditor",
-		"Type": "Editor",
-		"LoadingPhase": "PostEngineInit"
-
+			"Name": "FrostEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "FrostPainter_Alt",
+			"Enabled": false
+		},
+		{
+			"Name": "FrostPainter",
+			"Enabled": false
 		}
 	]
 }

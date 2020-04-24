@@ -1,18 +1,20 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
 
-public class GraphicsFinal_FrostEditor : ModuleRules
+public class FrostEditor : ModuleRules
 {
-	public GraphicsFinal_FrostEditor(ReadOnlyTargetRules Target) : base(Target)
+	public FrostEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PublicDependencyModuleNames.AddRange(new string[] { "GraphicsFinal_Frost" }); 
+		PublicDependencyModuleNames.AddRange(new string[] { "GraphicsFinal_Frost" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
+
+		PublicIncludePaths.AddRange(new string[] { "FrostEditor/Public" });
+
+		PrivateIncludePaths.AddRange(new string[] { "FrostEditor/Private" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

@@ -8,11 +8,13 @@
 
 DECLARE_LOG_CATEGORY_EXTERN(FrostEditor, All, All)
 
+
 class FFrostEditorModule : public IModuleInterface
 {
 public:
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
 
+	virtual void StartupModule() override;
+
+	virtual void ShutdownModule() override;
 
 };
