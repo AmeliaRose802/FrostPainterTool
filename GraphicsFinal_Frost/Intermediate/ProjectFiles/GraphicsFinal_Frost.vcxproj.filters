@@ -3,16 +3,16 @@
   <ItemGroup>
     <None Include="..\..\GraphicsFinal_Frost.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F0F80AA9-B667-48E7-A5C2-4754598C0535}</UniqueIdentifier>
+      <UniqueIdentifier>{390521BB-8FD6-4E50-B593-242022A49E9E}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Source\FrostEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
     <None Include="..\..\Source\GraphicsFinal_Frost.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\Source\GraphicsFinal_FrostEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A13C2BC1-7B4E-40E5-887B-D8B8E71515BA}</UniqueIdentifier>
+      <UniqueIdentifier>{377B6885-B719-485D-B200-641C37292A46}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,22 +24,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{9AC95C85-7A33-42C0-8E4A-24CF9E6EF4D8}</UniqueIdentifier>
+      <UniqueIdentifier>{810FABAB-A4E6-45CD-BA66-E2F6D0C470CD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FrostPainter">
-      <UniqueIdentifier>{E32371D6-4085-428D-AF36-506CE98CAF66}</UniqueIdentifier>
+      <UniqueIdentifier>{D2280A48-E99C-488D-A1E4-515964E265A7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FrostPainter\Source">
-      <UniqueIdentifier>{3B012837-843C-419E-A461-78A0C1BE654A}</UniqueIdentifier>
+      <UniqueIdentifier>{EB1FB79B-775D-4B99-AF87-0C885FF61A73}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FrostPainter\Source\FrostPainter">
-      <UniqueIdentifier>{06A46DA0-C348-4A0B-BD4D-945CAA70829E}</UniqueIdentifier>
+      <UniqueIdentifier>{CC2E0D10-BB32-4528-85D8-C4FFFF65BD42}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FrostPainter\Source\FrostPainter\FrostPainter.Build.cs">
       <Filter>Plugins\FrostPainter\Source\FrostPainter</Filter>
     </None>
     <Filter Include="Plugins\FrostPainter\Source\FrostPainter\Private">
-      <UniqueIdentifier>{F6FB2CD8-3B53-4CFE-BDAC-21C28FAF8164}</UniqueIdentifier>
+      <UniqueIdentifier>{97450E98-410C-42EB-B838-30A8F1213204}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Private\FrostPainter.cpp">
       <Filter>Plugins\FrostPainter\Source\FrostPainter\Private</Filter>
@@ -51,7 +51,7 @@
       <Filter>Plugins\FrostPainter\Source\FrostPainter\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\FrostPainter\Source\FrostPainter\Public">
-      <UniqueIdentifier>{E43018E7-C9DA-4097-958E-FB78EEE87853}</UniqueIdentifier>
+      <UniqueIdentifier>{4B30869B-71B5-4C63-93D0-7B6812F0F86D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FrostPainter\Source\FrostPainter\Public\FrostPainter.h">
       <Filter>Plugins\FrostPainter\Source\FrostPainter\Public</Filter>
@@ -65,20 +65,32 @@
     <None Include="..\..\Plugins\FrostPainter\FrostPainter.uplugin">
       <Filter>Plugins\FrostPainter</Filter>
     </None>
+    <Filter Include="Plugins\FrostPainter\Config">
+      <UniqueIdentifier>{C10EE6F8-792E-4BE9-AFC1-F5C3C4C593E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FrostPainter\Config\FilterPlugin.ini">
+      <Filter>Plugins\FrostPainter\Config</Filter>
+    </None>
     <Filter Include="Plugins\FrostPainter\Resources">
-      <UniqueIdentifier>{9871EB66-E00A-4B0E-BDC0-48A74273F536}</UniqueIdentifier>
+      <UniqueIdentifier>{7FE62EFC-1CEF-4CD3-9702-1BB7EFAA5DE1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FrostPainter\Resources\Icon128.png">
       <Filter>Plugins\FrostPainter\Resources</Filter>
     </None>
     <Filter Include="Plugins\FrostPainter_Alt">
-      <UniqueIdentifier>{628A81AE-E2C8-407F-86A7-7E7DECC2B00C}</UniqueIdentifier>
+      <UniqueIdentifier>{5E29852B-3839-4485-93BD-E5FA142AF671}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FrostPainter_Alt\FrostPainter_Alt.uplugin">
       <Filter>Plugins\FrostPainter_Alt</Filter>
     </None>
+    <Filter Include="Plugins\FrostPainter_Alt\Config">
+      <UniqueIdentifier>{09659D71-3B83-4788-BD11-80900FE2F92A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FrostPainter_Alt\Config\FilterPlugin.ini">
+      <Filter>Plugins\FrostPainter_Alt\Config</Filter>
+    </None>
     <Filter Include="Plugins\FrostPainter_Alt\Resources">
-      <UniqueIdentifier>{A46D92FF-7D6F-4795-BE40-0092B4BE8C53}</UniqueIdentifier>
+      <UniqueIdentifier>{EFB5A033-44D8-401A-BA1B-0AFED4333A54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FrostPainter_Alt\Resources\ButtonIcon_40x.png">
       <Filter>Plugins\FrostPainter_Alt\Resources</Filter>
@@ -87,16 +99,16 @@
       <Filter>Plugins\FrostPainter_Alt\Resources</Filter>
     </None>
     <Filter Include="Plugins\FrostPainter_Alt\Source">
-      <UniqueIdentifier>{5B940837-509D-4E40-A92D-CFE45E13CA07}</UniqueIdentifier>
+      <UniqueIdentifier>{845367AC-A1F4-4192-9703-0BA687E3FC4F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FrostPainter_Alt\Source\FrostPainter_Alt">
-      <UniqueIdentifier>{CF40BC79-9FF1-4621-A2AE-69D33B741945}</UniqueIdentifier>
+      <UniqueIdentifier>{92866EA2-0759-456F-A0FE-9A3C3A5A8EB9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\FrostPainter_Alt.Build.cs">
       <Filter>Plugins\FrostPainter_Alt\Source\FrostPainter_Alt</Filter>
     </None>
     <Filter Include="Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Private">
-      <UniqueIdentifier>{56E08A8D-1565-44BA-8F5C-01135BE10F36}</UniqueIdentifier>
+      <UniqueIdentifier>{9DEDFC4D-3E36-4318-91E0-09BC2756336B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Private\FrostPainter_Alt.cpp">
       <Filter>Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Private</Filter>
@@ -108,7 +120,7 @@
       <Filter>Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public">
-      <UniqueIdentifier>{85B5A25D-D346-4024-ABB2-C3E442E27E1B}</UniqueIdentifier>
+      <UniqueIdentifier>{66E6EFB5-FAA6-423C-9FF0-B3CFE34FD13B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public\FrostPainter_Alt.h">
       <Filter>Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public</Filter>
@@ -120,7 +132,7 @@
       <Filter>Plugins\FrostPainter_Alt\Source\FrostPainter_Alt\Public</Filter>
     </ClInclude>
     <Filter Include="Source\GraphicsFinal_Frost">
-      <UniqueIdentifier>{DAB4862F-BFD8-4D2B-A4A4-C9437F25856D}</UniqueIdentifier>
+      <UniqueIdentifier>{0F7F429D-A081-47D9-8AE1-626FB66BDAA5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GraphicsFinal_Frost\GraphicsFinal_Frost.Build.cs">
       <Filter>Source\GraphicsFinal_Frost</Filter>

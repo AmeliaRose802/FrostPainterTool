@@ -11,6 +11,14 @@
 			"AdditionalDependencies": [
 				"Blutility"
 			]
+		},
+		
+		{
+		
+		"Name": "FrostEditor",
+		"Type": "Editor",
+		"LoadingPhase": "PostEngineInit"
+
 		}
 	]
 }

@@ -1,31 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
-  Creating makefile for GraphicsFinal_FrostEditor (no existing makefile)
-  Parsing headers for GraphicsFinal_FrostEditor
-    Running UnrealHeaderTool "D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\GraphicsFinal_Frost.uproject" "D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\GraphicsFinal_FrostEditor\Development\GraphicsFinal_FrostEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GraphicsFinal_FrostEditor in 24.3071372 seconds
-  Building GraphicsFinal_FrostEditor...
-  Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 15 actions with 8 processes...
-    [1/15] SharedPCH.UnrealEd.ShadowErrors.cpp
-    [2/15] SharedPCH.Engine.ShadowErrors.cpp
-    [3/15] Module.FrostPainter_Alt.cpp
-    [4/15] Module.FrostPainter.cpp
-    [5/15] UE4Editor-FrostPainter_Alt-0001.lib
-       Creating library D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt-0001.lib and object D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt-0001.exp
-    [6/15] UE4Editor-FrostPainter-0001.lib
-       Creating library D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter-0001.lib and object D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter-0001.exp
-    [7/15] UE4Editor-FrostPainter_Alt-0001.dll
-       Creating library D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt-0001.suppressed.lib and object D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter_Alt\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter_Alt\UE4Editor-FrostPainter_Alt-0001.suppressed.exp
-    [8/15] UE4Editor-FrostPainter-0001.dll
-       Creating library D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter-0001.suppressed.lib and object D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Plugins\FrostPainter\Intermediate\Build\Win64\UE4Editor\Development\FrostPainter\UE4Editor-FrostPainter-0001.suppressed.exp
-    [9/15] GraphicsFinal_FrostGameModeBase.gen.cpp
-    [10/15] GraphicsFinal_FrostGameModeBase.cpp
-    [11/15] GraphicsFinal_Frost.cpp
-    [12/15] GraphicsFinal_Frost.init.gen.cpp
-    [13/15] UE4Editor-GraphicsFinal_Frost-0001.lib
-       Creating library D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\UE4Editor-GraphicsFinal_Frost-0001.lib and object D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\UE4Editor-GraphicsFinal_Frost-0001.exp
-    [14/15] UE4Editor-GraphicsFinal_Frost-0001.dll
-       Creating library D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\UE4Editor-GraphicsFinal_Frost-0001.suppressed.lib and object D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\UE4Editor-GraphicsFinal_Frost-0001.suppressed.exp
-    [15/15] GraphicsFinal_FrostEditor.target
-  Total time in Parallel executor: 28.28 seconds
-  Total execution time: 55.98 seconds
+  Creating makefile for FrostEditor (no existing makefile)
+UnrealBuildTool : error : Could not find definition for module 'FrostEditor', (referenced via FrostEditor.Target.cs)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" FrostEditor Win64 Development -Project="D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\GraphicsFinal_Frost.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
