@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class GraphicsFinal_FrostEditorTarget : TargetRules
+public class FrostEditorTarget : TargetRules
 {
-	public GraphicsFinal_FrostEditorTarget( TargetInfo Target) : base(Target)
+	public FrostEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "GraphicsFinal_Frost" } );
+		ExtraModuleNames.AddRange( new string[] { "GraphicsFinal_Frost", "FrostEditor"} );
 	}
 }

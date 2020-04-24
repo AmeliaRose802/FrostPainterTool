@@ -8,9 +8,6 @@
     <None Include="..\..\Source\GraphicsFinal_Frost.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\Source\GraphicsFinal_FrostEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
     <Filter Include="Config">
       <UniqueIdentifier>{A13C2BC1-7B4E-40E5-887B-D8B8E71515BA}</UniqueIdentifier>
     </Filter>
@@ -137,5 +134,32 @@
     <ClInclude Include="..\..\Source\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.h">
       <Filter>Source\GraphicsFinal_Frost</Filter>
     </ClInclude>
+    <None Include="..\..\Source\FrostEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="FrostEditor.Build.cs">
+      <Filter>Source\FrostEditor</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\FrostEditor">
+      <UniqueIdentifier>{7819f617-da89-4314-9266-bedc0240dfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FrostEditor\Public">
+      <UniqueIdentifier>{0fab06fe-9bb8-4614-b232-4075a2aeb11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FrostEditor\Private">
+      <UniqueIdentifier>{98f88740-f1da-4cb2-8f80-ed8571f43771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrostEditor.h">
+      <Filter>Source\FrostEditor\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrostEditor.cpp">
+      <Filter>Source\FrostEditor\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
