@@ -1,4 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
-  Creating makefile for FrostEditor (no existing makefile)
-UnrealBuildTool : error : Could not find definition for module 'FrostEditor', (referenced via FrostEditor.Target.cs)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" FrostEditor Win64 Development -Project="D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\GraphicsFinal_Frost.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Invalidating makefile for FrostEditor (FrostEditor.Target.cs modified)
+  Target is up to date
+  Total execution time: 2.09 seconds

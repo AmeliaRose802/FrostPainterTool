@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FrostPainter.cpp.obj": [
+			"FrostPainter.cpp.obj",
+			"FrostPainterEdMode.cpp.obj",
+			"FrostPainterEdModeToolkit.cpp.obj"
+		]
+	}
+}

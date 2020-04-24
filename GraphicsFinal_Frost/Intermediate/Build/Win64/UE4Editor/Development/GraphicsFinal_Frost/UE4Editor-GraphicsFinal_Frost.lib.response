@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GraphicsFinal_Frost.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\FrostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\GraphicsFinal_Frost.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\GraphicsFinal_Frost.init.gen.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\GraphicsFinal_FrostGameModeBase.gen.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\Default.rc2.res"
+/OUT:"D:\Graphics_Files\FrostPainterTool\GraphicsFinal_Frost\Intermediate\Build\Win64\UE4Editor\Development\GraphicsFinal_Frost\UE4Editor-GraphicsFinal_Frost.lib"
+/INCLUDE:IMPLEMENT_MODULE_GraphicsFinal_Frost

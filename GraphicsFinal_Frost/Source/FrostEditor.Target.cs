@@ -9,6 +9,6 @@ public class FrostEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "GraphicsFinal_Frost", "FrostEditor" } );
+		ExtraModuleNames.AddRange( new string[] { "GraphicsFinal_Frost" } );
 	}
 }
