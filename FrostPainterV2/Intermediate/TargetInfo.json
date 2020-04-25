@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FrostPainterV2",
+			"Path": "D:\\Graphics_Files\\FrostPainterTool\\FrostPainterV2\\Source\\FrostPainterV2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FrostPainterV2Editor",
+			"Path": "D:\\Graphics_Files\\FrostPainterTool\\FrostPainterV2\\Source\\FrostPainterV2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,4 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
+  Creating makefile for FrostPainterV2Editor (.uproject file is newer)
+UnrealBuildTool : error : Could not find definition for module 'FrostPainterV2Editor', (referenced via FrostPainterV2Editor.Target.cs)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" FrostPainterV2Editor Win64 Development -Project="D:\Graphics_Files\FrostPainterTool\FrostPainterV2\FrostPainterV2.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

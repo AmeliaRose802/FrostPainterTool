@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FrostPainterV2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\FrostPainterV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\FrostPainterV2.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\FrostPainterV2GameModeBase.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\FrostPainterV2.init.gen.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\FrostPainterV2GameModeBase.gen.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\Default.rc2.res"
+/OUT:"D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\UE4Editor-FrostPainterV2.lib"
+/INCLUDE:IMPLEMENT_MODULE_FrostPainterV2
