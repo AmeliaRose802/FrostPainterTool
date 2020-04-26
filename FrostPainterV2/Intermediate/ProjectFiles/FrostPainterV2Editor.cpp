@@ -3,7 +3,7 @@
 #include "Modules/ModuleManager.h"
 #include "Modules/ModuleInterface.h"
 
-IMPLEMENT_GAME_MODULE(FFrostPainterV2EditorModule, FrostPainterV2Editor);
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, FrostPainterV2Editor, "FrostPainterV2Editor");
 
 #define LOCTEXT_NAMESPACE "FrostPainterV2Editor"
 
