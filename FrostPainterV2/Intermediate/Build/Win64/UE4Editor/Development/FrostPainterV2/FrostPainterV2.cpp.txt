@@ -1,2 +1,0 @@
-D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV2\Definitions.FrostPainterV2.h
-D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2\FrostPainterV2.h

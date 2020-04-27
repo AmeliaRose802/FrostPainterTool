@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\Graphics_Files\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3\\FrostPainterV3.Build.cs",
+		"D:\\Graphics_Files\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor\\FrostPainterV3Editor.Build.cs",
+		"D:\\Graphics_Files\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3.Target.cs",
+		"D:\\Graphics_Files\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

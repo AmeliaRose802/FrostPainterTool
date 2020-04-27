@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FrostPainterV3Editor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\FrostPainterV3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\FrostPainterV3Editor.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\Default.rc2.res"
+/OUT:"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\UE4Editor-FrostPainterV3Editor.lib"
+/INCLUDE:IMPLEMENT_MODULE_FrostPainterV3Editor
