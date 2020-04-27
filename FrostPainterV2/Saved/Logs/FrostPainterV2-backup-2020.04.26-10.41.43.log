@@ -1,4 +1,4 @@
-﻿Log file open, 04/27/20 04:37:25
+﻿Log file open, 04/26/20 06:41:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FrostPainterV2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.100214
+LogStats: Stats thread started at 0.070628
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -102,20 +102,9 @@ LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
 LogInit: Warning: Incompatible or missing module: FrostPainterV2Editor
 Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Graphics_Files/FrostPainterTool/FrostPainterV2/FrostPainterV2.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
-While compiling D:\Graphics_Files\FrostPainterTool\FrostPainterV2\Intermediate\Build\BuildRules\FrostPainterV2ModuleRules.dll:
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(7,9) : error CS1520: Method must have a return type
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(7,58) : error CS1002: ; expected
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(7,71) : error CS1519: Invalid token ')' in class, struct, or interface member declaration
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(9,12) : error CS1519: Invalid token '=' in class, struct, or interface member declaration
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(9,50) : error CS1519: Invalid token ';' in class, struct, or interface member declaration
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(11,39) : error CS1519: Invalid token '(' in class, struct, or interface member declaration
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(11,53) : error CS1519: Invalid token '{' in class, struct, or interface member declaration
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(11,101) : error CS0116: A namespace cannot directly contain members such as fields or methods
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(13,44) : error CS1518: Expected class, delegate, enum, interface, or struct
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(13,51) : error CS1001: Identifier expected
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(13,53) : error CS1518: Expected class, delegate, enum, interface, or struct
-d:\Graphics_Files\FrostPainterTool\FrostPainterV2\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs(13,72) : error CS1022: Type or namespace definition, or end-of-file expected
-ERROR: Unable to compile source files.
+Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
+Creating makefile for FrostPainterV2Editor (.uproject file is newer)
+ERROR: Could not find definition for module 'FrostPainterV2Editor', (referenced via FrostPainterV2Editor.Target.cs)
 LogInit: Warning: Still incompatible or missing module: FrostPainterV2Editor
 LogCore: Engine exit requested (reason: EngineExit() was called)
 LogExit: Preparing to exit.
@@ -143,4 +132,4 @@ LogModuleManager: Shutting down and abandoning module SandboxFile (6)
 LogModuleManager: Shutting down and abandoning module PakFile (4)
 LogModuleManager: Shutting down and abandoning module RSA (3)
 LogExit: Exiting.
-Log file closed, 04/27/20 04:37:30
+Log file closed, 04/26/20 06:41:43
