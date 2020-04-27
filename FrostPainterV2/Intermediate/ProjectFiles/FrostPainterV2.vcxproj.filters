@@ -41,7 +41,7 @@
     <ClInclude Include="..\..\Source\FrostPainterV2\FrostPainterV2GameModeBase.h">
       <Filter>Source\FrostPainterV2</Filter>
     </ClInclude>
-    <None Include="FrostPainterV2Editor.Build.cs">
+    <None Include="..\..\Source\FrostPainterV2Editor\FrostPainterV2Editor.Build.cs">
       <Filter>Source\FrostPainterV2Editor</Filter>
     </None>
   </ItemGroup>
@@ -57,12 +57,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FrostPainterV2Editor.cpp">
+    <ClCompile Include="..\..\Source\FrostPainterV2Editor\FrostPainterV2Editor.cpp">
       <Filter>Source\FrostPainterV2Editor\Private</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FrostPainterV2Editor.h">
+    <ClInclude Include="..\..\Source\FrostPainterV2Editor\FrostPainterV2Editor.h">
       <Filter>Source\FrostPainterV2Editor\Public</Filter>
     </ClInclude>
   </ItemGroup>
