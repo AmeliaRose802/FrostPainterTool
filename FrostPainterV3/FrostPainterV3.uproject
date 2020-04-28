@@ -12,7 +12,10 @@
 		{
 			"Name": "FrostPainterV3Editor",
 			"Type": "Editor",
-			"LoadingPhase": "PostEngineInit"
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"Blutility"
+			]
 		}
 	]
 }

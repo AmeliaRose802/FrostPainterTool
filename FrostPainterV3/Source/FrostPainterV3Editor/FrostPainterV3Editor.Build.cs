@@ -11,16 +11,16 @@ public class FrostPainterV3Editor : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[] { });
 
-        PublicIncludePaths.AddRange(
-            new string[]
-            {
-                "FrostPainterV3Editor/Public"
-            });
+        //PublicIncludePaths.AddRange(
+        //    new string[]
+        //    {
+        //        "FrostPainterV3Editor/Public"
+        //    });
 
-        PrivateIncludePaths.AddRange(
-            new string[]
-            {
-            "FrostPainterV3Editor/Private"
-            });
+        //PrivateIncludePaths.AddRange(
+        //    new string[]
+        //    {
+        //    "FrostPainterV3Editor/Private"
+        //    });
     }
 }
