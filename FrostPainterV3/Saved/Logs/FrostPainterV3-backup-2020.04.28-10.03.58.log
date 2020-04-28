@@ -1,0 +1,345 @@
+﻿Log file open, 04/28/20 06:03:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FrostPainterV3
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.097075
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: FrostPainterV3Editor
+Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Graphics_Files/FrostPainterTool/FrostPainterV3/FrostPainterV3.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
+@progress push 5%
+@progress pop
+Building FrostPainterV3Editor...
+Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 2 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 50%
+  [1/2] UE4Editor-FrostPainterV3Editor.dll
+     Creating library D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\UE4Editor-FrostPainterV3Editor.suppressed.lib and object D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\UE4Editor-FrostPainterV3Editor.suppressed.exp
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::AddToScreen(class ULocalPlayer *,int)" (?AddToScreen@UUserWidget@@MEAAXPEAVULocalPlayer@@H@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::AddToScreen(class ULocalPlayer *,int)" (?AddToScreen@UUserWidget@@MEAAXPEAVULocalPlayer@@H@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::BeginDestroy(void)" (?BeginDestroy@UUserWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::BeginDestroy(void)" (?BeginDestroy@UUserWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ConnectEditorData(void)" (?ConnectEditorData@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ConnectEditorData(void)" (?ConnectEditorData@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::FinishDestroy(void)" (?FinishDestroy@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::FinishDestroy(void)" (?FinishDestroy@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedPtr<class SWidget,0> __cdecl UWidget::GetAccessibleWidget(void)const " (?GetAccessibleWidget@UWidget@@MEBA?AV?$TSharedPtr@VSWidget@@$0A@@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedPtr<class SWidget,0> __cdecl UWidget::GetAccessibleWidget(void)const " (?GetAccessibleWidget@UWidget@@MEBA?AV?$TSharedPtr@VSWidget@@$0A@@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWidget * __cdecl UUserWidget::GetContentForSlot(class FName)const " (?GetContentForSlot@UUserWidget@@UEBAPEAVUWidget@@VFName@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWidget * __cdecl UUserWidget::GetContentForSlot(class FName)const " (?GetContentForSlot@UUserWidget@@UEBAPEAVUWidget@@VFName@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FSlateBrush const * __cdecl UWidget::GetEditorIcon(void)" (?GetEditorIcon@UWidget@@UEAAPEBUFSlateBrush@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FSlateBrush const * __cdecl UWidget::GetEditorIcon(void)" (?GetEditorIcon@UWidget@@UEAAPEBUFSlateBrush@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UWidget::GetLabelMetadata(void)const " (?GetLabelMetadata@UWidget@@UEBA?AVFString@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UWidget::GetLabelMetadata(void)const " (?GetLabelMetadata@UWidget@@UEBA?AVFString@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class ULocalPlayer * __cdecl UUserWidget::GetOwningLocalPlayer(void)const " (?GetOwningLocalPlayer@UUserWidget@@UEBAPEAVULocalPlayer@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class ULocalPlayer * __cdecl UUserWidget::GetOwningLocalPlayer(void)const " (?GetOwningLocalPlayer@UUserWidget@@UEBAPEAVULocalPlayer@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class APlayerController * __cdecl UUserWidget::GetOwningPlayer(void)const " (?GetOwningPlayer@UUserWidget@@UEBAPEAVAPlayerController@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class APlayerController * __cdecl UUserWidget::GetOwningPlayer(void)const " (?GetOwningPlayer@UUserWidget@@UEBAPEAVAPlayerController@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FText const __cdecl UUserWidget::GetPaletteCategory(void)" (?GetPaletteCategory@UUserWidget@@UEAA?BVFText@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FText const __cdecl UUserWidget::GetPaletteCategory(void)" (?GetPaletteCategory@UUserWidget@@UEAA?BVFText@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::GetSlotNames(class TArray<class FName,class TSizedDefaultAllocator<32> > &)const " (?GetSlotNames@UUserWidget@@UEBAXAEAV?$TArray@VFName@@V?$TSizedDefaultAllocator@$0CA@@@@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::GetSlotNames(class TArray<class FName,class TSizedDefaultAllocator<32> > &)const " (?GetSlotNames@UUserWidget@@UEBAXAEAV?$TArray@VFName@@V?$TSizedDefaultAllocator@$0CA@@@@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UUserWidget::GetWorld(void)const " (?GetWorld@UUserWidget@@UEBAPEAVUWorld@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UUserWidget::GetWorld(void)const " (?GetWorld@UUserWidget@@UEBAPEAVUWorld@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::Initialize(void)" (?Initialize@UUserWidget@@UEAA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::Initialize(void)" (?Initialize@UUserWidget@@UEAA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeInputComponent(void)" (?InitializeInputComponent@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeInputComponent(void)" (?InitializeInputComponent@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeNativeClassData(void)" (?InitializeNativeClassData@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeNativeClassData(void)" (?InitializeNativeClassData@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::IsAsset(void)const " (?IsAsset@UUserWidget@@UEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::IsAsset(void)const " (?IsAsset@UUserWidget@@UEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsDestructionThreadSafe(void)const " (?IsDestructionThreadSafe@UWidget@@UEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsDestructionThreadSafe(void)const " (?IsDestructionThreadSafe@UWidget@@UEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsHovered(void)const " (?IsHovered@UWidget@@UEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsHovered(void)const " (?IsHovered@UWidget@@UEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::Modify(bool)" (?Modify@UWidget@@UEAA_N_N@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::Modify(bool)" (?Modify@UWidget@@UEAA_N_N@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeConstruct(void)" (?NativeConstruct@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeConstruct(void)" (?NativeConstruct@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeDestruct(void)" (?NativeDestruct@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeDestruct(void)" (?NativeDestruct@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeIsInteractable(void)const " (?NativeIsInteractable@UUserWidget@@MEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeIsInteractable(void)const " (?NativeIsInteractable@UUserWidget@@MEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnAddedToFocusPath(struct FFocusEvent const &)" (?NativeOnAddedToFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnAddedToFocusPath(struct FFocusEvent const &)" (?NativeOnAddedToFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnAnalogValueChanged(struct FGeometry const &,struct FAnalogInputEvent const &)" (?NativeOnAnalogValueChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFAnalogInputEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnAnalogValueChanged(struct FGeometry const &,struct FAnalogInputEvent const &)" (?NativeOnAnalogValueChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFAnalogInputEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FCursorReply __cdecl UUserWidget::NativeOnCursorQuery(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnCursorQuery@UUserWidget@@MEAA?AVFCursorReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FCursorReply __cdecl UUserWidget::NativeOnCursorQuery(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnCursorQuery@UUserWidget@@MEAA?AVFCursorReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragCancelled(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragCancelled@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragCancelled(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragCancelled@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragDetected(struct FGeometry const &,struct FPointerEvent const &,class UDragDropOperation * &)" (?NativeOnDragDetected@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@AEAPEAVUDragDropOperation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragDetected(struct FGeometry const &,struct FPointerEvent const &,class UDragDropOperation * &)" (?NativeOnDragDetected@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@AEAPEAVUDragDropOperation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragEnter(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragEnter(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragLeave(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragLeave@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragLeave(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragLeave@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDragOver(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragOver@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDragOver(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragOver@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDrop(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDrop@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDrop(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDrop@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusChanging(class FWeakWidgetPath const &,class FWidgetPath const &,struct FFocusEvent const &)" (?NativeOnFocusChanging@UUserWidget@@MEAAXAEBVFWeakWidgetPath@@AEBVFWidgetPath@@AEBUFFocusEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusChanging(class FWeakWidgetPath const &,class FWidgetPath const &,struct FFocusEvent const &)" (?NativeOnFocusChanging@UUserWidget@@MEAAXAEBVFWeakWidgetPath@@AEBVFWidgetPath@@AEBUFFocusEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusLost(struct FFocusEvent const &)" (?NativeOnFocusLost@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusLost(struct FFocusEvent const &)" (?NativeOnFocusLost@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnFocusReceived(struct FGeometry const &,struct FFocusEvent const &)" (?NativeOnFocusReceived@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFFocusEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnFocusReceived(struct FGeometry const &,struct FFocusEvent const &)" (?NativeOnFocusReceived@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFFocusEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnInitialized(void)" (?NativeOnInitialized@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnInitialized(void)" (?NativeOnInitialized@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyChar(struct FGeometry const &,struct FCharacterEvent const &)" (?NativeOnKeyChar@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFCharacterEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyChar(struct FGeometry const &,struct FCharacterEvent const &)" (?NativeOnKeyChar@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFCharacterEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyUp(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyUp(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMotionDetected(struct FGeometry const &,struct FMotionEvent const &)" (?NativeOnMotionDetected@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFMotionEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMotionDetected(struct FGeometry const &,struct FMotionEvent const &)" (?NativeOnMotionDetected@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFMotionEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDoubleClick(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDoubleClick@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDoubleClick(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDoubleClick@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonUp(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonUp(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseCaptureLost(struct FCaptureLostEvent const &)" (?NativeOnMouseCaptureLost@UUserWidget@@MEAAXAEBUFCaptureLostEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseCaptureLost(struct FCaptureLostEvent const &)" (?NativeOnMouseCaptureLost@UUserWidget@@MEAAXAEBUFCaptureLostEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseEnter(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseEnter(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseLeave(struct FPointerEvent const &)" (?NativeOnMouseLeave@UUserWidget@@MEAAXAEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseLeave(struct FPointerEvent const &)" (?NativeOnMouseLeave@UUserWidget@@MEAAXAEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseMove(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseMove@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseMove(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseMove@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseWheel(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseWheel@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseWheel(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseWheel@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &,class FNavigationReply const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@AEBV2@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &,class FNavigationReply const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@AEBV2@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnPreviewKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnPreviewKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnPreviewMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnPreviewMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnRemovedFromFocusPath(struct FFocusEvent const &)" (?NativeOnRemovedFromFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnRemovedFromFocusPath(struct FFocusEvent const &)" (?NativeOnRemovedFromFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchEnded(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchEnded@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchEnded(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchEnded@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchForceChanged(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchForceChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchForceChanged(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchForceChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchGesture(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchGesture@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchGesture(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchGesture@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchMoved(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchMoved@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchMoved(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchMoved@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchStarted(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchStarted@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchStarted(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchStarted@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual int __cdecl UUserWidget::NativePaint(class FPaintArgs const &,struct FGeometry const &,class FSlateRect const &,class FSlateWindowElementList &,int,class FWidgetStyle const &,bool)const " (?NativePaint@UUserWidget@@MEBAHAEBVFPaintArgs@@AEBUFGeometry@@AEBVFSlateRect@@AEAVFSlateWindowElementList@@HAEBVFWidgetStyle@@_N@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual int __cdecl UUserWidget::NativePaint(class FPaintArgs const &,struct FGeometry const &,class FSlateRect const &,class FSlateWindowElementList &,int,class FWidgetStyle const &,bool)const " (?NativePaint@UUserWidget@@MEBAHAEBVFPaintArgs@@AEBUFGeometry@@AEBVFSlateRect@@AEAVFSlateWindowElementList@@HAEBVFWidgetStyle@@_N@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePaint(struct FPaintContext &)const " (?NativePaint@UUserWidget@@MEBAXAEAUFPaintContext@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePaint(struct FPaintContext &)const " (?NativePaint@UUserWidget@@MEBAXAEAUFPaintContext@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePreConstruct(void)" (?NativePreConstruct@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePreConstruct(void)" (?NativePreConstruct@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsCustomNavigation(void)const " (?NativeSupportsCustomNavigation@UUserWidget@@MEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsCustomNavigation(void)const " (?NativeSupportsCustomNavigation@UUserWidget@@MEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsKeyboardFocus(void)const " (?NativeSupportsKeyboardFocus@UUserWidget@@MEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsKeyboardFocus(void)const " (?NativeSupportsKeyboardFocus@UUserWidget@@MEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeTick(struct FGeometry const &,float)" (?NativeTick@UUserWidget@@MEAAXAEBUFGeometry@@M@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeTick(struct FGeometry const &,float)" (?NativeTick@UUserWidget@@MEAAXAEBUFGeometry@@M@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UVisual::NeedsLoadForServer(void)const " (?NeedsLoadForServer@UVisual@@UEBA_NXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UVisual::NeedsLoadForServer(void)const " (?NeedsLoadForServer@UVisual@@UEBA_NXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinishedPlaying(class UUMGSequencePlayer &)" (?OnAnimationFinishedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinishedPlaying(class UUMGSequencePlayer &)" (?OnAnimationFinishedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinished_Implementation(class UWidgetAnimation const *)" (?OnAnimationFinished_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinished_Implementation(class UWidgetAnimation const *)" (?OnAnimationFinished_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStartedPlaying(class UUMGSequencePlayer &)" (?OnAnimationStartedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStartedPlaying(class UUMGSequencePlayer &)" (?OnAnimationStartedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStarted_Implementation(class UWidgetAnimation const *)" (?OnAnimationStarted_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStarted_Implementation(class UWidgetAnimation const *)" (?OnAnimationStarted_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnBeginEditByDesigner(void)" (?OnBeginEditByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnBeginEditByDesigner(void)" (?OnBeginEditByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UWidget::OnBindingChanged(class FName const &)" (?OnBindingChanged@UWidget@@MEAAXAEBVFName@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UWidget::OnBindingChanged(class FName const &)" (?OnBindingChanged@UWidget@@MEAAXAEBVFName@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnCreationFromPalette(void)" (?OnCreationFromPalette@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnCreationFromPalette(void)" (?OnCreationFromPalette@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantDeselectedByDesigner(class UWidget *)" (?OnDescendantDeselectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantDeselectedByDesigner(class UWidget *)" (?OnDescendantDeselectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantSelectedByDesigner(class UWidget *)" (?OnDescendantSelectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantSelectedByDesigner(class UWidget *)" (?OnDescendantSelectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDeselectedByDesigner(void)" (?OnDeselectedByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDeselectedByDesigner(void)" (?OnDeselectedByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::OnDesignerChanged(struct FDesignerChangedEventArgs const &)" (?OnDesignerChanged@UUserWidget@@UEAAXAEBUFDesignerChangedEventArgs@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::OnDesignerChanged(struct FDesignerChangedEventArgs const &)" (?OnDesignerChanged@UUserWidget@@UEAAXAEBUFDesignerChangedEventArgs@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnEndEditByDesigner(void)" (?OnEndEditByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnEndEditByDesigner(void)" (?OnEndEditByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnLevelRemovedFromWorld(class ULevel *,class UWorld *)" (?OnLevelRemovedFromWorld@UUserWidget@@MEAAXPEAVULevel@@PEAVUWorld@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnLevelRemovedFromWorld(class ULevel *,class UWorld *)" (?OnLevelRemovedFromWorld@UUserWidget@@MEAAXPEAVULevel@@PEAVUWorld@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnSelectedByDesigner(void)" (?OnSelectedByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnSelectedByDesigner(void)" (?OnSelectedByDesigner@UWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnWidgetRebuilt(void)" (?OnWidgetRebuilt@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnWidgetRebuilt(void)" (?OnWidgetRebuilt@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostDuplicate(bool)" (?PostDuplicate@UUserWidget@@UEAAX_N@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostDuplicate(bool)" (?PostDuplicate@UUserWidget@@UEAAX_N@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditChangeProperty(struct FPropertyChangedEvent &)" (?PostEditChangeProperty@UUserWidget@@UEAAXAEAUFPropertyChangedEvent@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditChangeProperty(struct FPropertyChangedEvent &)" (?PostEditChangeProperty@UUserWidget@@UEAAXAEAUFPropertyChangedEvent@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditImport(void)" (?PostEditImport@UUserWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditImport(void)" (?PostEditImport@UUserWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostLoad(void)" (?PostLoad@UUserWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostLoad(void)" (?PostLoad@UUserWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PreSave(class ITargetPlatform const *)" (?PreSave@UUserWidget@@UEAAXPEBVITargetPlatform@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PreSave(class ITargetPlatform const *)" (?PreSave@UUserWidget@@UEAAXPEBVITargetPlatform@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UWidget::RebuildDesignWidget(class TSharedRef<class SWidget,0>)" (?RebuildDesignWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@V2@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UWidget::RebuildDesignWidget(class TSharedRef<class SWidget,0>)" (?RebuildDesignWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@V2@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UUserWidget::RebuildWidget(void)" (?RebuildWidget@UUserWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UUserWidget::RebuildWidget(void)" (?RebuildWidget@UUserWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@XZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ReleaseSlateResources(bool)" (?ReleaseSlateResources@UUserWidget@@UEAAX_N@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ReleaseSlateResources(bool)" (?ReleaseSlateResources@UUserWidget@@UEAAX_N@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::RemoveFromParent(void)" (?RemoveFromParent@UUserWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::RemoveFromParent(void)" (?RemoveFromParent@UUserWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FArchive &)" (?Serialize@UUserWidget@@UEAAXAEAVFArchive@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FArchive &)" (?Serialize@UUserWidget@@UEAAXAEAVFArchive@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FStructuredArchiveRecord)" (?Serialize@UUserWidget@@UEAAXVFStructuredArchiveRecord@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FStructuredArchiveRecord)" (?Serialize@UUserWidget@@UEAAXVFStructuredArchiveRecord@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetContentForSlot(class FName,class UWidget *)" (?SetContentForSlot@UUserWidget@@UEAAXVFName@@PEAVUWidget@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetContentForSlot(class FName,class UWidget *)" (?SetContentForSlot@UUserWidget@@UEAAXVFName@@PEAVUWidget@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetDesignerFlags(enum EWidgetDesignFlags)" (?SetDesignerFlags@UUserWidget@@UEAAXW4EWidgetDesignFlags@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetDesignerFlags(enum EWidgetDesignFlags)" (?SetDesignerFlags@UUserWidget@@UEAAXW4EWidgetDesignFlags@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetIsEnabled(bool)" (?SetIsEnabled@UWidget@@UEAAX_N@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetIsEnabled(bool)" (?SetIsEnabled@UWidget@@UEAAX_N@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetLockedInDesigner(bool)" (?SetLockedInDesigner@UWidget@@UEAAX_N@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetLockedInDesigner(bool)" (?SetLockedInDesigner@UWidget@@UEAAX_N@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetVisibility(enum ESlateVisibility)" (?SetVisibility@UWidget@@UEAAXW4ESlateVisibility@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetVisibility(enum ESlateVisibility)" (?SetVisibility@UWidget@@UEAAXW4ESlateVisibility@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SynchronizeProperties(void)" (?SynchronizeProperties@UUserWidget@@UEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SynchronizeProperties(void)" (?SynchronizeProperties@UUserWidget@@UEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::TemplateInitInner(void)" (?TemplateInitInner@UUserWidget@@MEAAXXZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::TemplateInitInner(void)" (?TemplateInitInner@UUserWidget@@MEAAXXZ)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ValidateCompiledDefaults(class IWidgetCompilerLog &)const " (?ValidateCompiledDefaults@UWidget@@UEBAXAEAVIWidgetCompilerLog@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ValidateCompiledDefaults(class IWidgetCompilerLog &)const " (?ValidateCompiledDefaults@UWidget@@UEBAXAEAVIWidgetCompilerLog@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ValidateCompiledWidgetTree(class UWidgetTree const &,class IWidgetCompilerLog &)const " (?ValidateCompiledWidgetTree@UUserWidget@@UEBAXAEBVUWidgetTree@@AEAVIWidgetCompilerLog@@@Z)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ValidateCompiledWidgetTree(class UWidgetTree const &,class IWidgetCompilerLog &)const " (?ValidateCompiledWidgetTree@UUserWidget@@UEBAXAEBVUWidgetTree@@AEAVIWidgetCompilerLog@@@Z)
+  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UUserWidget::_getUObject(void)const " (?_getUObject@UUserWidget@@UEBAPEAVUObject@@XZ)
+  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UUserWidget::_getUObject(void)const " (?_getUObject@UUserWidget@@UEBAPEAVUObject@@XZ)
+  D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Binaries\Win64\UE4Editor-FrostPainterV3Editor.dll : fatal error LNK1120: 101 unresolved externals
+LogInit: Warning: Still incompatible or missing module: FrostPainterV3Editor
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+LogModuleManager: Shutting down and abandoning module RenderCore (30)
+LogModuleManager: Shutting down and abandoning module Landscape (28)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogExit: Exiting.
+Log file closed, 04/28/20 06:03:58

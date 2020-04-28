@@ -1,4 +1,4 @@
-﻿Log file open, 04/28/20 06:03:49
+﻿Log file open, 04/28/20 11:05:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FrostPainterV3
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.097075
+LogStats: Stats thread started at 0.092810
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -100,246 +100,512 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
-LogInit: Warning: Incompatible or missing module: FrostPainterV3Editor
-Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Graphics_Files/FrostPainterTool/FrostPainterV3/FrostPainterV3.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build (D:\Graphics_Files\FrostPainterTool).
-@progress push 5%
-@progress pop
-Building FrostPainterV3Editor...
-Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Building 2 actions with 8 processes...
-  @progress 'Compiling C++ source code...' 0%
-  @progress 'Compiling C++ source code...' 50%
-  [1/2] UE4Editor-FrostPainterV3Editor.dll
-     Creating library D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\UE4Editor-FrostPainterV3Editor.suppressed.lib and object D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\UE4Editor-FrostPainterV3Editor.suppressed.exp
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::AddToScreen(class ULocalPlayer *,int)" (?AddToScreen@UUserWidget@@MEAAXPEAVULocalPlayer@@H@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::AddToScreen(class ULocalPlayer *,int)" (?AddToScreen@UUserWidget@@MEAAXPEAVULocalPlayer@@H@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::BeginDestroy(void)" (?BeginDestroy@UUserWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::BeginDestroy(void)" (?BeginDestroy@UUserWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ConnectEditorData(void)" (?ConnectEditorData@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ConnectEditorData(void)" (?ConnectEditorData@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::FinishDestroy(void)" (?FinishDestroy@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::FinishDestroy(void)" (?FinishDestroy@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedPtr<class SWidget,0> __cdecl UWidget::GetAccessibleWidget(void)const " (?GetAccessibleWidget@UWidget@@MEBA?AV?$TSharedPtr@VSWidget@@$0A@@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedPtr<class SWidget,0> __cdecl UWidget::GetAccessibleWidget(void)const " (?GetAccessibleWidget@UWidget@@MEBA?AV?$TSharedPtr@VSWidget@@$0A@@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWidget * __cdecl UUserWidget::GetContentForSlot(class FName)const " (?GetContentForSlot@UUserWidget@@UEBAPEAVUWidget@@VFName@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWidget * __cdecl UUserWidget::GetContentForSlot(class FName)const " (?GetContentForSlot@UUserWidget@@UEBAPEAVUWidget@@VFName@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FSlateBrush const * __cdecl UWidget::GetEditorIcon(void)" (?GetEditorIcon@UWidget@@UEAAPEBUFSlateBrush@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FSlateBrush const * __cdecl UWidget::GetEditorIcon(void)" (?GetEditorIcon@UWidget@@UEAAPEBUFSlateBrush@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UWidget::GetLabelMetadata(void)const " (?GetLabelMetadata@UWidget@@UEBA?AVFString@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UWidget::GetLabelMetadata(void)const " (?GetLabelMetadata@UWidget@@UEBA?AVFString@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class ULocalPlayer * __cdecl UUserWidget::GetOwningLocalPlayer(void)const " (?GetOwningLocalPlayer@UUserWidget@@UEBAPEAVULocalPlayer@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class ULocalPlayer * __cdecl UUserWidget::GetOwningLocalPlayer(void)const " (?GetOwningLocalPlayer@UUserWidget@@UEBAPEAVULocalPlayer@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class APlayerController * __cdecl UUserWidget::GetOwningPlayer(void)const " (?GetOwningPlayer@UUserWidget@@UEBAPEAVAPlayerController@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class APlayerController * __cdecl UUserWidget::GetOwningPlayer(void)const " (?GetOwningPlayer@UUserWidget@@UEBAPEAVAPlayerController@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FText const __cdecl UUserWidget::GetPaletteCategory(void)" (?GetPaletteCategory@UUserWidget@@UEAA?BVFText@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FText const __cdecl UUserWidget::GetPaletteCategory(void)" (?GetPaletteCategory@UUserWidget@@UEAA?BVFText@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::GetSlotNames(class TArray<class FName,class TSizedDefaultAllocator<32> > &)const " (?GetSlotNames@UUserWidget@@UEBAXAEAV?$TArray@VFName@@V?$TSizedDefaultAllocator@$0CA@@@@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::GetSlotNames(class TArray<class FName,class TSizedDefaultAllocator<32> > &)const " (?GetSlotNames@UUserWidget@@UEBAXAEAV?$TArray@VFName@@V?$TSizedDefaultAllocator@$0CA@@@@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UUserWidget::GetWorld(void)const " (?GetWorld@UUserWidget@@UEBAPEAVUWorld@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UUserWidget::GetWorld(void)const " (?GetWorld@UUserWidget@@UEBAPEAVUWorld@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::Initialize(void)" (?Initialize@UUserWidget@@UEAA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::Initialize(void)" (?Initialize@UUserWidget@@UEAA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeInputComponent(void)" (?InitializeInputComponent@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeInputComponent(void)" (?InitializeInputComponent@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeNativeClassData(void)" (?InitializeNativeClassData@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::InitializeNativeClassData(void)" (?InitializeNativeClassData@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::IsAsset(void)const " (?IsAsset@UUserWidget@@UEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UUserWidget::IsAsset(void)const " (?IsAsset@UUserWidget@@UEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsDestructionThreadSafe(void)const " (?IsDestructionThreadSafe@UWidget@@UEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsDestructionThreadSafe(void)const " (?IsDestructionThreadSafe@UWidget@@UEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsHovered(void)const " (?IsHovered@UWidget@@UEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsHovered(void)const " (?IsHovered@UWidget@@UEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::Modify(bool)" (?Modify@UWidget@@UEAA_N_N@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::Modify(bool)" (?Modify@UWidget@@UEAA_N_N@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeConstruct(void)" (?NativeConstruct@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeConstruct(void)" (?NativeConstruct@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeDestruct(void)" (?NativeDestruct@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeDestruct(void)" (?NativeDestruct@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeIsInteractable(void)const " (?NativeIsInteractable@UUserWidget@@MEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeIsInteractable(void)const " (?NativeIsInteractable@UUserWidget@@MEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnAddedToFocusPath(struct FFocusEvent const &)" (?NativeOnAddedToFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnAddedToFocusPath(struct FFocusEvent const &)" (?NativeOnAddedToFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnAnalogValueChanged(struct FGeometry const &,struct FAnalogInputEvent const &)" (?NativeOnAnalogValueChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFAnalogInputEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnAnalogValueChanged(struct FGeometry const &,struct FAnalogInputEvent const &)" (?NativeOnAnalogValueChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFAnalogInputEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FCursorReply __cdecl UUserWidget::NativeOnCursorQuery(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnCursorQuery@UUserWidget@@MEAA?AVFCursorReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FCursorReply __cdecl UUserWidget::NativeOnCursorQuery(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnCursorQuery@UUserWidget@@MEAA?AVFCursorReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragCancelled(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragCancelled@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragCancelled(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragCancelled@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragDetected(struct FGeometry const &,struct FPointerEvent const &,class UDragDropOperation * &)" (?NativeOnDragDetected@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@AEAPEAVUDragDropOperation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragDetected(struct FGeometry const &,struct FPointerEvent const &,class UDragDropOperation * &)" (?NativeOnDragDetected@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@AEAPEAVUDragDropOperation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragEnter(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragEnter(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragLeave(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragLeave@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnDragLeave(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragLeave@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDragOver(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragOver@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDragOver(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragOver@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDrop(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDrop@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeOnDrop(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDrop@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusChanging(class FWeakWidgetPath const &,class FWidgetPath const &,struct FFocusEvent const &)" (?NativeOnFocusChanging@UUserWidget@@MEAAXAEBVFWeakWidgetPath@@AEBVFWidgetPath@@AEBUFFocusEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusChanging(class FWeakWidgetPath const &,class FWidgetPath const &,struct FFocusEvent const &)" (?NativeOnFocusChanging@UUserWidget@@MEAAXAEBVFWeakWidgetPath@@AEBVFWidgetPath@@AEBUFFocusEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusLost(struct FFocusEvent const &)" (?NativeOnFocusLost@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnFocusLost(struct FFocusEvent const &)" (?NativeOnFocusLost@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnFocusReceived(struct FGeometry const &,struct FFocusEvent const &)" (?NativeOnFocusReceived@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFFocusEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnFocusReceived(struct FGeometry const &,struct FFocusEvent const &)" (?NativeOnFocusReceived@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFFocusEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnInitialized(void)" (?NativeOnInitialized@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnInitialized(void)" (?NativeOnInitialized@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyChar(struct FGeometry const &,struct FCharacterEvent const &)" (?NativeOnKeyChar@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFCharacterEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyChar(struct FGeometry const &,struct FCharacterEvent const &)" (?NativeOnKeyChar@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFCharacterEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyUp(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyUp(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMotionDetected(struct FGeometry const &,struct FMotionEvent const &)" (?NativeOnMotionDetected@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFMotionEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMotionDetected(struct FGeometry const &,struct FMotionEvent const &)" (?NativeOnMotionDetected@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFMotionEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDoubleClick(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDoubleClick@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDoubleClick(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDoubleClick@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonUp(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonUp(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseCaptureLost(struct FCaptureLostEvent const &)" (?NativeOnMouseCaptureLost@UUserWidget@@MEAAXAEBUFCaptureLostEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseCaptureLost(struct FCaptureLostEvent const &)" (?NativeOnMouseCaptureLost@UUserWidget@@MEAAXAEBUFCaptureLostEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseEnter(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseEnter(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseLeave(struct FPointerEvent const &)" (?NativeOnMouseLeave@UUserWidget@@MEAAXAEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnMouseLeave(struct FPointerEvent const &)" (?NativeOnMouseLeave@UUserWidget@@MEAAXAEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseMove(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseMove@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseMove(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseMove@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseWheel(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseWheel@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseWheel(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseWheel@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &,class FNavigationReply const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@AEBV2@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &,class FNavigationReply const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@AEBV2@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnPreviewKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnPreviewKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnPreviewMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnPreviewMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnRemovedFromFocusPath(struct FFocusEvent const &)" (?NativeOnRemovedFromFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeOnRemovedFromFocusPath(struct FFocusEvent const &)" (?NativeOnRemovedFromFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchEnded(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchEnded@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchEnded(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchEnded@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchForceChanged(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchForceChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchForceChanged(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchForceChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchGesture(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchGesture@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchGesture(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchGesture@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchMoved(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchMoved@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchMoved(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchMoved@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchStarted(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchStarted@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchStarted(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchStarted@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual int __cdecl UUserWidget::NativePaint(class FPaintArgs const &,struct FGeometry const &,class FSlateRect const &,class FSlateWindowElementList &,int,class FWidgetStyle const &,bool)const " (?NativePaint@UUserWidget@@MEBAHAEBVFPaintArgs@@AEBUFGeometry@@AEBVFSlateRect@@AEAVFSlateWindowElementList@@HAEBVFWidgetStyle@@_N@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual int __cdecl UUserWidget::NativePaint(class FPaintArgs const &,struct FGeometry const &,class FSlateRect const &,class FSlateWindowElementList &,int,class FWidgetStyle const &,bool)const " (?NativePaint@UUserWidget@@MEBAHAEBVFPaintArgs@@AEBUFGeometry@@AEBVFSlateRect@@AEAVFSlateWindowElementList@@HAEBVFWidgetStyle@@_N@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePaint(struct FPaintContext &)const " (?NativePaint@UUserWidget@@MEBAXAEAUFPaintContext@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePaint(struct FPaintContext &)const " (?NativePaint@UUserWidget@@MEBAXAEAUFPaintContext@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePreConstruct(void)" (?NativePreConstruct@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativePreConstruct(void)" (?NativePreConstruct@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsCustomNavigation(void)const " (?NativeSupportsCustomNavigation@UUserWidget@@MEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsCustomNavigation(void)const " (?NativeSupportsCustomNavigation@UUserWidget@@MEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsKeyboardFocus(void)const " (?NativeSupportsKeyboardFocus@UUserWidget@@MEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl UUserWidget::NativeSupportsKeyboardFocus(void)const " (?NativeSupportsKeyboardFocus@UUserWidget@@MEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeTick(struct FGeometry const &,float)" (?NativeTick@UUserWidget@@MEAAXAEBUFGeometry@@M@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::NativeTick(struct FGeometry const &,float)" (?NativeTick@UUserWidget@@MEAAXAEBUFGeometry@@M@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UVisual::NeedsLoadForServer(void)const " (?NeedsLoadForServer@UVisual@@UEBA_NXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UVisual::NeedsLoadForServer(void)const " (?NeedsLoadForServer@UVisual@@UEBA_NXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinishedPlaying(class UUMGSequencePlayer &)" (?OnAnimationFinishedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinishedPlaying(class UUMGSequencePlayer &)" (?OnAnimationFinishedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinished_Implementation(class UWidgetAnimation const *)" (?OnAnimationFinished_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationFinished_Implementation(class UWidgetAnimation const *)" (?OnAnimationFinished_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStartedPlaying(class UUMGSequencePlayer &)" (?OnAnimationStartedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStartedPlaying(class UUMGSequencePlayer &)" (?OnAnimationStartedPlaying@UUserWidget@@MEAAXAEAVUUMGSequencePlayer@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStarted_Implementation(class UWidgetAnimation const *)" (?OnAnimationStarted_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnAnimationStarted_Implementation(class UWidgetAnimation const *)" (?OnAnimationStarted_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnBeginEditByDesigner(void)" (?OnBeginEditByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnBeginEditByDesigner(void)" (?OnBeginEditByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UWidget::OnBindingChanged(class FName const &)" (?OnBindingChanged@UWidget@@MEAAXAEBVFName@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UWidget::OnBindingChanged(class FName const &)" (?OnBindingChanged@UWidget@@MEAAXAEBVFName@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnCreationFromPalette(void)" (?OnCreationFromPalette@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnCreationFromPalette(void)" (?OnCreationFromPalette@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantDeselectedByDesigner(class UWidget *)" (?OnDescendantDeselectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantDeselectedByDesigner(class UWidget *)" (?OnDescendantDeselectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantSelectedByDesigner(class UWidget *)" (?OnDescendantSelectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantSelectedByDesigner(class UWidget *)" (?OnDescendantSelectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDeselectedByDesigner(void)" (?OnDeselectedByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDeselectedByDesigner(void)" (?OnDeselectedByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::OnDesignerChanged(struct FDesignerChangedEventArgs const &)" (?OnDesignerChanged@UUserWidget@@UEAAXAEBUFDesignerChangedEventArgs@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::OnDesignerChanged(struct FDesignerChangedEventArgs const &)" (?OnDesignerChanged@UUserWidget@@UEAAXAEBUFDesignerChangedEventArgs@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnEndEditByDesigner(void)" (?OnEndEditByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnEndEditByDesigner(void)" (?OnEndEditByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnLevelRemovedFromWorld(class ULevel *,class UWorld *)" (?OnLevelRemovedFromWorld@UUserWidget@@MEAAXPEAVULevel@@PEAVUWorld@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnLevelRemovedFromWorld(class ULevel *,class UWorld *)" (?OnLevelRemovedFromWorld@UUserWidget@@MEAAXPEAVULevel@@PEAVUWorld@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnSelectedByDesigner(void)" (?OnSelectedByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnSelectedByDesigner(void)" (?OnSelectedByDesigner@UWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnWidgetRebuilt(void)" (?OnWidgetRebuilt@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::OnWidgetRebuilt(void)" (?OnWidgetRebuilt@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostDuplicate(bool)" (?PostDuplicate@UUserWidget@@UEAAX_N@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostDuplicate(bool)" (?PostDuplicate@UUserWidget@@UEAAX_N@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditChangeProperty(struct FPropertyChangedEvent &)" (?PostEditChangeProperty@UUserWidget@@UEAAXAEAUFPropertyChangedEvent@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditChangeProperty(struct FPropertyChangedEvent &)" (?PostEditChangeProperty@UUserWidget@@UEAAXAEAUFPropertyChangedEvent@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditImport(void)" (?PostEditImport@UUserWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostEditImport(void)" (?PostEditImport@UUserWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostLoad(void)" (?PostLoad@UUserWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PostLoad(void)" (?PostLoad@UUserWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PreSave(class ITargetPlatform const *)" (?PreSave@UUserWidget@@UEAAXPEBVITargetPlatform@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::PreSave(class ITargetPlatform const *)" (?PreSave@UUserWidget@@UEAAXPEBVITargetPlatform@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UWidget::RebuildDesignWidget(class TSharedRef<class SWidget,0>)" (?RebuildDesignWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@V2@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UWidget::RebuildDesignWidget(class TSharedRef<class SWidget,0>)" (?RebuildDesignWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@V2@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UUserWidget::RebuildWidget(void)" (?RebuildWidget@UUserWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,0> __cdecl UUserWidget::RebuildWidget(void)" (?RebuildWidget@UUserWidget@@MEAA?AV?$TSharedRef@VSWidget@@$0A@@@XZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ReleaseSlateResources(bool)" (?ReleaseSlateResources@UUserWidget@@UEAAX_N@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ReleaseSlateResources(bool)" (?ReleaseSlateResources@UUserWidget@@UEAAX_N@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::RemoveFromParent(void)" (?RemoveFromParent@UUserWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::RemoveFromParent(void)" (?RemoveFromParent@UUserWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FArchive &)" (?Serialize@UUserWidget@@UEAAXAEAVFArchive@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FArchive &)" (?Serialize@UUserWidget@@UEAAXAEAVFArchive@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FStructuredArchiveRecord)" (?Serialize@UUserWidget@@UEAAXVFStructuredArchiveRecord@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::Serialize(class FStructuredArchiveRecord)" (?Serialize@UUserWidget@@UEAAXVFStructuredArchiveRecord@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetContentForSlot(class FName,class UWidget *)" (?SetContentForSlot@UUserWidget@@UEAAXVFName@@PEAVUWidget@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetContentForSlot(class FName,class UWidget *)" (?SetContentForSlot@UUserWidget@@UEAAXVFName@@PEAVUWidget@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetDesignerFlags(enum EWidgetDesignFlags)" (?SetDesignerFlags@UUserWidget@@UEAAXW4EWidgetDesignFlags@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SetDesignerFlags(enum EWidgetDesignFlags)" (?SetDesignerFlags@UUserWidget@@UEAAXW4EWidgetDesignFlags@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetIsEnabled(bool)" (?SetIsEnabled@UWidget@@UEAAX_N@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetIsEnabled(bool)" (?SetIsEnabled@UWidget@@UEAAX_N@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetLockedInDesigner(bool)" (?SetLockedInDesigner@UWidget@@UEAAX_N@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetLockedInDesigner(bool)" (?SetLockedInDesigner@UWidget@@UEAAX_N@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetVisibility(enum ESlateVisibility)" (?SetVisibility@UWidget@@UEAAXW4ESlateVisibility@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetVisibility(enum ESlateVisibility)" (?SetVisibility@UWidget@@UEAAXW4ESlateVisibility@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SynchronizeProperties(void)" (?SynchronizeProperties@UUserWidget@@UEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::SynchronizeProperties(void)" (?SynchronizeProperties@UUserWidget@@UEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::TemplateInitInner(void)" (?TemplateInitInner@UUserWidget@@MEAAXXZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UUserWidget::TemplateInitInner(void)" (?TemplateInitInner@UUserWidget@@MEAAXXZ)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ValidateCompiledDefaults(class IWidgetCompilerLog &)const " (?ValidateCompiledDefaults@UWidget@@UEBAXAEAVIWidgetCompilerLog@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ValidateCompiledDefaults(class IWidgetCompilerLog &)const " (?ValidateCompiledDefaults@UWidget@@UEBAXAEAVIWidgetCompilerLog@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ValidateCompiledWidgetTree(class UWidgetTree const &,class IWidgetCompilerLog &)const " (?ValidateCompiledWidgetTree@UUserWidget@@UEBAXAEBVUWidgetTree@@AEAVIWidgetCompilerLog@@@Z)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UUserWidget::ValidateCompiledWidgetTree(class UWidgetTree const &,class IWidgetCompilerLog &)const " (?ValidateCompiledWidgetTree@UUserWidget@@UEBAXAEBVUWidgetTree@@AEAVIWidgetCompilerLog@@@Z)
-  FrostPainter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UUserWidget::_getUObject(void)const " (?_getUObject@UUserWidget@@UEBAPEAVUObject@@XZ)
-  FrostPainter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UUserWidget::_getUObject(void)const " (?_getUObject@UUserWidget@@UEBAPEAVUObject@@XZ)
-  D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Binaries\Win64\UE4Editor-FrostPainterV3Editor.dll : fatal error LNK1120: 101 unresolved externals
-LogInit: Warning: Still incompatible or missing module: FrostPainterV3Editor
-LogCore: Engine exit requested (reason: EngineExit() was called)
-LogExit: Preparing to exit.
-LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-LogModuleManager: Shutting down and abandoning module RenderCore (30)
-LogModuleManager: Shutting down and abandoning module Landscape (28)
-LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-LogModuleManager: Shutting down and abandoning module Renderer (18)
-LogModuleManager: Shutting down and abandoning module Engine (16)
-LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-LogModuleManager: Shutting down and abandoning module PakFile (4)
-LogModuleManager: Shutting down and abandoning module RSA (3)
-LogExit: Exiting.
-Log file closed, 04/28/20 06:03:58
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.28-15.05.37:986][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.28-15.05.37:986][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.28-15.05.37:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:986][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.28-15.05.37:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:986][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.28-15.05.37:986][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.28-15.05.37:987][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:987][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:990][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.28-15.05.37:990][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.28-15.05.37:991][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.28-15.05.37:991][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.28-15.05.37:991][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.28-15.05.37:993][  0]LogHAL: Display: Platform has ~ 32 GB [34315382784 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.28-15.05.37:993][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.28-15.05.37:993][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:993][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.28-15.05.37:993][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.28-15.05.37:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.28-15.05.37:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.28-15.05.37:996][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Config/Windows/Engine.ini]
+[2020.04.28-15.05.37:996][  0]LogInit: Computer: DAVIDS-GL1
+[2020.04.28-15.05.37:996][  0]LogInit: User: david
+[2020.04.28-15.05.37:996][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.28-15.05.37:996][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.28-15.05.37:996][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2020.04.28-15.05.37:996][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.28-15.05.37:997][  0]LogMemory: Process Physical Memory: 105.62 MB used, 105.62 MB peak
+[2020.04.28-15.05.37:997][  0]LogMemory: Process Virtual Memory: 100.62 MB used, 100.62 MB peak
+[2020.04.28-15.05.37:997][  0]LogMemory: Physical Memory: 11849.29 MB used,  20876.41 MB free, 32725.70 MB total
+[2020.04.28-15.05.37:997][  0]LogMemory: Virtual Memory: 5137.57 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.04.28-15.05.38:332][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.28-15.05.38:357][  0]LogInit: Using OS detected language (en-US).
+[2020.04.28-15.05.38:357][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.28-15.05.38:358][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.28-15.05.38:634][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.28-15.05.38:634][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.28-15.05.38:804][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.28-15.05.38:804][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.28-15.05.38:804][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.28-15.05.38:804][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.28-15.05.38:872][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.04.28-15.05.38:872][  0]LogD3D11RHI:       8081/0/16362 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.28-15.05.38:875][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.28-15.05.38:875][  0]LogD3D11RHI:       0/0/16362 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.28-15.05.38:875][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.28-15.05.38:883][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.28-15.05.38:884][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.28-15.05.38:884][  0]LogWindows: EnumDisplayDevices:
+[2020.04.28-15.05.38:884][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.04.28-15.05.38:884][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.28-15.05.38:884][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.28-15.05.38:884][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.28-15.05.38:885][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.28-15.05.38:885][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.04.28-15.05.38:885][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.04.28-15.05.38:885][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.04.28-15.05.38:885][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2020.04.28-15.05.38:931][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.28-15.05.38:931][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.28-15.05.38:963][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.28-15.05.39:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.28-15.05.39:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.28-15.05.39:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.28-15.05.39:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.28-15.05.39:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.28-15.05.39:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.28-15.05.39:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.28-15.05.39:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.28-15.05.39:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.28-15.05.39:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.28-15.05.39:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.28-15.05.39:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.28-15.05.39:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.28-15.05.39:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.28-15.05.39:446][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.28-15.05.39:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.28-15.05.39:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.28-15.05.39:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.28-15.05.39:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.28-15.05.39:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.28-15.05.39:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.28-15.05.39:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.28-15.05.39:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.28-15.05.39:519][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.28-15.05.39:523][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.28-15.05.39:547][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Intermediate/Shaders/WorkingDirectory/3980/).
+[2020.04.28-15.05.39:547][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/david/AppData/Local/Temp/UnrealShaderWorkingDir/920FED5741D337FEEF077FA37F723878/'.
+[2020.04.28-15.05.39:548][  0]LogXGEController: Cleaning working directory: C:/Users/david/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.28-15.05.39:548][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.28-15.05.39:548][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.28-15.05.39:548][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.28-15.05.40:386][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.28-15.05.40:449][  0]LogDerivedDataCache: Loaded boot cache 0.06s 85MB C:/Users/david/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.28-15.05.40:449][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/david/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.28-15.05.40:449][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Graphics_Files/FrostPainterTool/FrostPainterV3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.28-15.05.40:449][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.28-15.05.40:449][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Graphics_Files/FrostPainterTool/FrostPainterV3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.28-15.05.40:449][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.28-15.05.40:461][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.28-15.05.40:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.28-15.05.40:461][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.28-15.05.40:462][  0]LogDerivedDataCache: Using Local data cache path C:/Users/david/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.28-15.05.40:462][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.28-15.05.40:462][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.28-15.05.40:492][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.28-15.05.40:494][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.28-15.05.40:495][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.28-15.05.40:554][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.04.28-15.05.40:917][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.28-15.05.41:096][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.28-15.05.41:096][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.28-15.05.41:096][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.28-15.05.41:096][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.28-15.05.41:096][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.28-15.05.41:109][  0]LogNetVersion: FrostPainterV3 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2742189821)
+[2020.04.28-15.05.42:291][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.050037 seconds
+[2020.04.28-15.05.42:300][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.28-15.05.42:300][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.28-15.05.42:300][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.28-15.05.42:725][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.28-15.05.42:728][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.28-15.05.42:802][  0]SourceControl: Source control is disabled
+[2020.04.28-15.05.42:802][  0]SourceControl: Source control is disabled
+[2020.04.28-15.05.42:803][  0]SourceControl: Source control is disabled
+[2020.04.28-15.05.42:804][  0]SourceControl: Source control is disabled
+[2020.04.28-15.05.42:805][  0]SourceControl: Source control is disabled
+[2020.04.28-15.05.42:892][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.28-15.05.42:904][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.28-15.05.42:904][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.28-15.05.43:002][  0]LogOcInput: OculusInput pre-init called
+[2020.04.28-15.05.43:009][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.28-15.05.43:009][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.28-15.05.43:089][  0]LogEngine: Initializing Engine...
+[2020.04.28-15.05.43:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.28-15.05.43:092][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.28-15.05.43:514][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.28-15.05.43:522][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-15.05.43:546][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-15.05.43:546][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-15.05.43:547][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-15.05.43:547][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 5: BackRight
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.04.28-15.05.43:564][  0]LogAudioMixer: Display: 7: SideRight
+[2020.04.28-15.05.43:652][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-15.05.43:658][  0]LogInit: FAudioDevice initialized.
+[2020.04.28-15.05.43:659][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.28-15.05.43:841][  0]LogDerivedDataCache: Saved boot cache 0.18s 85MB C:/Users/david/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.28-15.05.43:846][  0]LogInit: Texture streaming: Enabled
+[2020.04.28-15.05.43:855][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.28-15.05.43:855][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.28-15.05.43:857][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.28-15.05.43:920][  0]LogInit: Transaction tracking system initialized
+[2020.04.28-15.05.43:930][  0]BlueprintLog: New page: Editor Load
+[2020.04.28-15.05.43:958][  0]LocalizationService: Localization service is disabled
+[2020.04.28-15.05.44:301][  0]LogFileCache: Scanning file cache for directory 'D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Content/' took 0.00s
+[2020.04.28-15.05.44:301][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.28-15.05.44:301][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.28-15.05.45:061][  0]SourceControl: Source control is disabled
+[2020.04.28-15.05.45:061][  0]Cmd: MAP LOAD FILE="D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.28-15.05.45:067][  0]LightingResults: New page: Lighting Build
+[2020.04.28-15.05.45:068][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-15.05.45:068][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-15.05.45:068][  0]MapCheck: New page: Map Check
+[2020.04.28-15.05.45:068][  0]LightingResults: New page: Lighting Build
+[2020.04.28-15.05.45:097][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.04.28-15.05.45:577][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.04.28-15.05.45:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.28-15.05.45:614][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.04.28-15.05.45:615][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.28-15.05.45:615][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
+[2020.04.28-15.05.45:615][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.555
+[2020.04.28-15.05.45:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-15.05.45:773][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-15.05.45:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-15.05.45:792][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-15.05.45:800][  0]LogCollectionManager: Loaded 0 collections in 0.002485 seconds
+[2020.04.28-15.05.45:814][  0]LogFileCache: Scanning file cache for directory 'D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Saved/Collections/' took 0.00s
+[2020.04.28-15.05.45:814][  0]LogFileCache: Scanning file cache for directory 'D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Content/Developers/david/Collections/' took 0.00s
+[2020.04.28-15.05.45:814][  0]LogFileCache: Scanning file cache for directory 'D:/Graphics_Files/FrostPainterTool/FrostPainterV3/Content/Collections/' took 0.00s
+[2020.04.28-15.05.45:814][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3019 classes and 723 folders.
+[2020.04.28-15.05.45:817][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.28-15.05.45:891][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.28-15.05.47:090][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.28-15.05.47:096][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.28-15.05.47:100][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.28-15.05.47:190][  0]LogRenderer: Reallocating scene render targets to support 1212x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.28-15.05.47:249][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.28-15.05.47:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.28-15.05.47:306][  0]LogLoad: (Engine Initialization) Total time: 10.84 seconds
+[2020.04.28-15.05.47:306][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.28-15.05.47:380][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.28-15.05.47:461][  2]LogAssetRegistry: Asset discovery search completed in 6.9078 seconds
+[2020.04.28-15.05.47:466][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FrostPainterV3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{05A0486C-DA80-4843-8176-6EE1E4C83D2D}</UniqueIdentifier>
+      <UniqueIdentifier>{E0C888E6-80B2-4817-A4F8-F1F3950AFF0D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FrostPainterV3.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{483D3ECA-B056-47BD-919F-E96E9CF8DD82}</UniqueIdentifier>
+      <UniqueIdentifier>{5F888D8C-05F8-40BF-A945-3EE66B2FDB62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,26 +23,8 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
-    <Filter Include="Source\FrostPainterV3Editor">
-      <UniqueIdentifier>{8460EE29-C6DF-4E8B-BCB5-9CBA707A39DA}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\FrostPainterV3Editor\FrostPainter.cpp">
-      <Filter>Source\FrostPainterV3Editor</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FrostPainterV3Editor\FrostPainter.h">
-      <Filter>Source\FrostPainterV3Editor</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\FrostPainterV3Editor\FrostPainterV3Editor.Build.cs">
-      <Filter>Source\FrostPainterV3Editor</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\FrostPainterV3Editor\FrostPainterV3Editor.cpp">
-      <Filter>Source\FrostPainterV3Editor</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FrostPainterV3Editor\FrostPainterV3Editor.h">
-      <Filter>Source\FrostPainterV3Editor</Filter>
-    </ClInclude>
     <Filter Include="Source\FrostPainterV3">
-      <UniqueIdentifier>{BAB7015D-88A1-484F-9375-A0877A58AF0A}</UniqueIdentifier>
+      <UniqueIdentifier>{B90AAFF2-490A-4BD9-9882-5092D0AE6C9F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FrostPainterV3\FrostPainterV3.Build.cs">
       <Filter>Source\FrostPainterV3</Filter>
@@ -58,6 +40,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\FrostPainterV3\FrostPainterV3GameModeBase.h">
       <Filter>Source\FrostPainterV3</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrostPainterV3Editor">
+      <UniqueIdentifier>{09C320DA-C424-4DDE-802F-BE67361216E0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrostPainterV3Editor\FrostPainter.cpp">
+      <Filter>Source\FrostPainterV3Editor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrostPainterV3Editor\FrostPainter.h">
+      <Filter>Source\FrostPainterV3Editor</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FrostPainterV3Editor\FrostPainterV3Editor.Build.cs">
+      <Filter>Source\FrostPainterV3Editor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FrostPainterV3Editor\FrostPainterV3Editor.cpp">
+      <Filter>Source\FrostPainterV3Editor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrostPainterV3Editor\FrostPainterV3Editor.h">
+      <Filter>Source\FrostPainterV3Editor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
