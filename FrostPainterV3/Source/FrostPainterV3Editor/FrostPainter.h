@@ -13,5 +13,8 @@ UCLASS()
 class FROSTPAINTERV3EDITOR_API UFrostPainter : public UEditorUtilityWidget
 {
 	GENERATED_BODY()
-	
+
+		UFUNCTION(BlueprintCallable, Category = "Functionality Testing")
+		void classTest();
+
 };

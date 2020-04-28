@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FROSTPAINTERV3EDITOR_FrostPainter_generated_h
 
 #define FrostPainterV3_Source_FrostPainterV3Editor_FrostPainter_h_15_SPARSE_DATA
-#define FrostPainterV3_Source_FrostPainterV3Editor_FrostPainter_h_15_RPC_WRAPPERS
-#define FrostPainterV3_Source_FrostPainterV3Editor_FrostPainter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FrostPainterV3_Source_FrostPainterV3Editor_FrostPainter_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execclassTest) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->classTest(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FrostPainterV3_Source_FrostPainterV3Editor_FrostPainter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execclassTest) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->classTest(); \
+		P_NATIVE_END; \
+	}
+
+
 #define FrostPainterV3_Source_FrostPainterV3Editor_FrostPainter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFrostPainter(); \

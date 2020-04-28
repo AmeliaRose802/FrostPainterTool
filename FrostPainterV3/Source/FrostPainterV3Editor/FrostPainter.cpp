@@ -3,3 +3,7 @@
 
 #include "FrostPainter.h"
 
+void UFrostPainter::classTest()
+{
+	//IDK, print something to log I guess?
+}

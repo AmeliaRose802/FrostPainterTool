@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFrostPainterV3Editor_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000040,
-				0xC2FE4AAC,
-				0x6F023D5C,
+				0xD5054A87,
+				0x2B0E1DB3,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

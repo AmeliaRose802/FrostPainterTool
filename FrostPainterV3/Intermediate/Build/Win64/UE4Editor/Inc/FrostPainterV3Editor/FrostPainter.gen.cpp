@@ -17,9 +17,38 @@ void EmptyLinkFunctionForGeneratedCodeFrostPainter() {}
 	FROSTPAINTERV3EDITOR_API UClass* Z_Construct_UClass_UFrostPainter();
 	BLUTILITY_API UClass* Z_Construct_UClass_UEditorUtilityWidget();
 	UPackage* Z_Construct_UPackage__Script_FrostPainterV3Editor();
+	FROSTPAINTERV3EDITOR_API UFunction* Z_Construct_UFunction_UFrostPainter_classTest();
 // End Cross Module References
 	void UFrostPainter::StaticRegisterNativesUFrostPainter()
 	{
+		UClass* Class = UFrostPainter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "classTest", &UFrostPainter::execclassTest },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UFrostPainter_classTest_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFrostPainter_classTest_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Functionality Testing" },
+		{ "ModuleRelativePath", "FrostPainter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UFrostPainter_classTest_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFrostPainter, nullptr, "classTest", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFrostPainter_classTest_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFrostPainter_classTest_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UFrostPainter_classTest()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UFrostPainter_classTest_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UFrostPainter_NoRegister()
 	{
@@ -28,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeFrostPainter() {}
 	struct Z_Construct_UClass_UFrostPainter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +67,9 @@ void EmptyLinkFunctionForGeneratedCodeFrostPainter() {}
 	UObject* (*const Z_Construct_UClass_UFrostPainter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UEditorUtilityWidget,
 		(UObject* (*)())Z_Construct_UPackage__Script_FrostPainterV3Editor,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UFrostPainter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UFrostPainter_classTest, "classTest" }, // 2672285972
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFrostPainter_Statics::Class_MetaDataParams[] = {
@@ -53,11 +86,11 @@ void EmptyLinkFunctionForGeneratedCodeFrostPainter() {}
 		"Editor",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x00B010A4u,
@@ -72,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeFrostPainter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UFrostPainter, 2508824221);
+	IMPLEMENT_CLASS(UFrostPainter, 2357623980);
 	template<> FROSTPAINTERV3EDITOR_API UClass* StaticClass<UFrostPainter>()
 	{
 		return UFrostPainter::StaticClass();

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FrostPainterV3-8856.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\FrostPainterV3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\FrostPainterV3.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\FrostPainterV3GameModeBase.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\FrostPainterV3.init.gen.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\FrostPainterV3GameModeBase.gen.cpp.obj"
+"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\Default.rc2.res"
+/OUT:"D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\UE4Editor-FrostPainterV3-8856.lib"
+/INCLUDE:IMPLEMENT_MODULE_FrostPainterV3
