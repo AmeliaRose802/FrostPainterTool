@@ -1,2 +1,2 @@
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\Definitions.FrostPainterV3.h
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Source\FrostPainterV3\FrostPainterV3.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3\Definitions.FrostPainterV3.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Source\FrostPainterV3\FrostPainterV3.h

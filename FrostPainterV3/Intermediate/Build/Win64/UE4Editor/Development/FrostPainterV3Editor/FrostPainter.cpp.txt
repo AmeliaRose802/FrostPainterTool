@@ -1,5 +1,5 @@
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\Definitions.FrostPainterV3Editor.h
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Source\FrostPainterV3Editor\FrostPainter.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\Definitions.FrostPainterV3Editor.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Source\FrostPainterV3Editor\FrostPainter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Blutility\Classes\EditorUtilityWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
@@ -117,4 +117,4 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Blutility\EditorUtilityWidget.generated.h
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Inc\FrostPainterV3Editor\FrostPainter.generated.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Inc\FrostPainterV3Editor\FrostPainter.generated.h

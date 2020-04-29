@@ -1,5 +1,5 @@
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\Definitions.FrostPainterV3Editor.h
-D:\Graphics_Files\FrostPainterTool\FrostPainterV3\Source\FrostPainterV3Editor\FrostPainterV3Editor.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Intermediate\Build\Win64\UE4Editor\Development\FrostPainterV3Editor\Definitions.FrostPainterV3Editor.h
+C:\Users\Amelia\Desktop\FrostPainterTool\FrostPainterV3\Source\FrostPainterV3Editor\FrostPainterV3Editor.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\UnrealEd.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Engine.h
