@@ -1394,3 +1394,183 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.29-16.05.54:968][704]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Frost3763C2734CEC0037927846B7A199443B.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/Materials/Frost.uasset'
 [2020.04.29-16.05.54:999][704]AssetCheck: New page: Asset Save: Frost
 [2020.04.29-16.05.54:999][704]LogContentValidation: Display: Validating Material /Game/Materials/Frost.Frost
+[2020.04.29-16.07.05:933][416]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.05:967][416]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.04.29-16.07.05:967][416]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.04.29-16.07.05:967][416]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.04.29-16.07.05:967][416]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2020.04.29-16.07.06:011][416]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.11:182][599]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.04.29-16.07.13:547][687]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.04.29-16.07.13:733][692]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.13:776][692]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2020.04.29-16.07.13:814][692]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.13:842][692]LogMaterialEditor: Saving and Compiling material Frost
+[2020.04.29-16.07.14:923][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.04.29-16.07.14:956][692]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.15:030][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.04.29-16.07.15:100][692]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.15:249][692]LogUObjectHash: Compacting FUObjectHashTables data took   9.16ms
+[2020.04.29-16.07.15:288][692]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.04.29-16.07.19:409][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.04.29-16.07.19:416][692]TextureStreamingBuild: Display: Compiling optional shaders took 4.164 seconds.
+[2020.04.29-16.07.19:506][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.04.29-16.07.22:880][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.04.29-16.07.22:880][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.04.29-16.07.23:027][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Frost" FILE="../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/Materials/Frost.uasset" SILENT=true
+[2020.04.29-16.07.23:046][692]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/FrostF9986095495DD75D319DF6BC3B242B71.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/Materials/Frost.uasset'
+[2020.04.29-16.07.23:103][692]AssetCheck: New page: Asset Save: Frost
+[2020.04.29-16.07.23:103][692]LogContentValidation: Display: Validating Material /Game/Materials/Frost.Frost
+[2020.04.29-16.07.23:118][692]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.04.29-16.07.23:118][692]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.04.29-16.07.23:118][692]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.04.29-16.07.23:118][692]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.29-16.07.23:118][692]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.29-16.07.23:118][692]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.29-16.07.43:989][553]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.44:014][553]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.04.29-16.07.44:014][553]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.04.29-16.07.44:014][553]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.04.29-16.07.44:022][553]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2020.04.29-16.07.44:070][553]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.46:159][634]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.46:238][637]LogMaterialEditor: Applying material Frost
+[2020.04.29-16.07.47:291][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.04.29-16.07.47:329][637]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.47:400][637]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.04.29-16.07.47:456][637]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-16.07.47:595][637]LogUObjectHash: Compacting FUObjectHashTables data took   8.15ms
+[2020.04.29-16.07.47:627][637]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.29-16.07.51:143][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.04.29-16.07.51:144][637]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.04.29-16.07.51:148][637]TextureStreamingBuild: Display: Compiling optional shaders took 3.551 seconds.
+[2020.04.29-16.07.51:234][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.04.29-16.07.57:401][860]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.29-16.08.07:725][303]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.04.29-16.08.12:132][490]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.04.29-16.08.12:132][490]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.04.29-16.08.12:132][490]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.04.29-16.08.12:133][490]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.29-16.08.12:133][490]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.29-16.08.12:133][490]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.29-16.14.03:140][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.04.29-16.14.03:143][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.068
+[2020.04.29-16.14.03:144][936]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Frost] ([1] browsable assets)...
+[2020.04.29-16.14.03:246][936]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Frost.Frost]
+[2020.04.29-16.14.03:246][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Frost]
+[2020.04.29-16.14.03:271][936]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Frost_Auto20AF2A41C410E24DC797AF1A5709035D9.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Autosaves/Game/Materials/Frost_Auto2.uasset'
+[2020.04.29-16.14.03:274][936]LogFileHelpers: Auto-saving content packages took 0.130
+[2020.04.29-19.39.22:976][280]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-19.41.55:312][734]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-19.51.55:250][523]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-19.57.03:281][108]LogMaterialEditor: Saving and Compiling material Frost
+[2020.04.29-19.57.03:324][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Frost" FILE="../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/Materials/Frost.uasset" SILENT=true
+[2020.04.29-19.57.03:335][108]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/FrostED0021504C0C3623A2178B8E8305B091.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/Materials/Frost.uasset'
+[2020.04.29-19.57.03:378][108]AssetCheck: New page: Asset Save: Frost
+[2020.04.29-19.57.03:378][108]LogContentValidation: Display: Validating Material /Game/Materials/Frost.Frost
+[2020.04.29-19.57.53:230][330]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.04.29-19.58.07:220][998]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-19.58.10:585][  8]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-19.58.10:585][  8]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-19.59.15:261][522]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.04.29-19.59.26:897][863]LogEditor: Attempting to add actor of class 'SceneCapture2D' to level at 0.00,490.00,-50.00
+[2020.04.29-19.59.29:061][918]LogEditor: Attempting to add actor of class 'SceneCapture2D' to level at -310.00,50.00,30.00
+[2020.04.29-19.59.39:792][242]LogSlate: Window 'Select Path' being destroyed
+[2020.04.29-19.59.40:031][242]LogUObjectHash: Compacting FUObjectHashTables data took  13.05ms
+[2020.04.29-19.59.40:220][242]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SceneCapture2D1_Blueprint.SceneCapture2D1_Blueprint
+[2020.04.29-19.59.58:494][642]LogRenderer: Reallocating scene render targets to support 720x536 Format 10 NumSamples 1 (Frame:378).
+[2020.04.29-20.00.14:965][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SceneCapture2D1_Blueprint" FILE="../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/SceneCapture2D1_Blueprint.uasset" SILENT=true
+[2020.04.29-20.00.14:991][976]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/SceneCapture2D1_BlueprintCF247DF94738AB266FB047AB33C83D45.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/SceneCapture2D1_Blueprint.uasset'
+[2020.04.29-20.00.15:066][976]AssetCheck: New page: Asset Save: SceneCapture2D1_Blueprint
+[2020.04.29-20.00.15:066][976]LogContentValidation: Display: Validating Blueprint /Game/SceneCapture2D1_Blueprint.SceneCapture2D1_Blueprint
+[2020.04.29-20.00.20:084][119]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.00.29:827][429]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.04.29-20.00.31:649][487]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.00.49:288][ 71]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.00.49:320][ 71]LogEditorViewport: Clicking on Component (LMB): SceneCaptureComponent2D (NewSceneCaptureComponent2D)
+[2020.04.29-20.01.46:773][916]LogEditorViewport: Clicking on Component (LMB): SceneCaptureComponent2D (NewSceneCaptureComponent2D)
+[2020.04.29-20.01.46:819][916]LogEditorViewport: Clicking on Actor (double click): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.01.51:417][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.29-20.01.52:970][ 95]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.01.55:712][182]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.02.21:300][  2]LogUObjectHash: Compacting FUObjectHashTables data took  11.55ms
+[2020.04.29-20.02.22:188][  2]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Minimal_Default_Auto3A69A50144C910E71C5BA1889B335AC51.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2020.04.29-20.02.22:192][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.002
+[2020.04.29-20.02.22:192][  2]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.002
+[2020.04.29-20.02.22:193][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RT_Scene_Capture] ([1] browsable assets)...
+[2020.04.29-20.02.22:206][  2]OBJ SavePackage:     Rendered thumbnail for [TextureRenderTarget2D /Game/RT_Scene_Capture.RT_Scene_Capture]
+[2020.04.29-20.02.22:206][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/RT_Scene_Capture]
+[2020.04.29-20.02.22:224][  2]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/RT_Scene_Capture_Auto3064569C64A4EDEDC21F419A34A0978C4.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Autosaves/Game/RT_Scene_Capture_Auto3.uasset'
+[2020.04.29-20.02.22:226][  2]LogFileHelpers: Auto-saving content packages took 0.034
+[2020.04.29-20.02.47:055][810]LogRenderer: Reallocating scene render targets to support 720x584 Format 10 NumSamples 1 (Frame:119286).
+[2020.04.29-20.02.47:152][811]LogRenderer: Reallocating scene render targets to support 720x628 Format 10 NumSamples 1 (Frame:119288).
+[2020.04.29-20.02.47:238][812]LogRenderer: Reallocating scene render targets to support 720x652 Format 10 NumSamples 1 (Frame:119290).
+[2020.04.29-20.03.33:850][329]LogAssetEditorSubsystem: Opening Asset editor for TextureRenderTarget2D /Game/RT_Scene_Capture.RT_Scene_Capture
+[2020.04.29-20.03.40:906][500]LogRenderer: Reallocating scene render targets to support 2048x652 Format 10 NumSamples 1 (Frame:120946).
+[2020.04.29-20.03.47:224][647]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:121089).
+[2020.04.29-20.03.56:896][743]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.03.56:926][743]LogEditorViewport: Clicking on Component (LMB): SceneCaptureComponent2D (NewSceneCaptureComponent2D)
+[2020.04.29-20.04.18:649][ 13]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.04.29-20.04.19:673][ 25]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D1_Blueprint_C (SceneCapture2D1_Blueprint)
+[2020.04.29-20.05.02:990][727]LogAssetEditorSubsystem: Opening Asset editor for MaterialParameterCollection /Game/MPC_Capture.MPC_Capture
+[2020.04.29-20.05.05:908][756]LogMaterial: Display: Missing cached shader map for material Frost, compiling. 
+[2020.04.29-20.05.05:937][757]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.04.29-20.05.05:937][757]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.04.29-20.05.05:937][757]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.04.29-20.05.10:800][802]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.04.29-20.05.15:183][873]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.04.29-20.05.18:262][923]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.04.29-20.05.21:528][964]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.04.29-20.05.22:893][978]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.04.29-20.05.23:758][987]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.04.29-20.05.42:831][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MPC_Capture" FILE="../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/MPC_Capture.uasset" SILENT=true
+[2020.04.29-20.05.42:835][184]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/MPC_Capture7515359D416AEAF1E8A7E38C5337CFC8.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/MPC_Capture.uasset'
+[2020.04.29-20.05.42:890][184]AssetCheck: New page: Asset Save: MPC_Capture
+[2020.04.29-20.05.42:890][184]LogContentValidation: Display: Validating MaterialParameterCollection /Game/MPC_Capture.MPC_Capture
+[2020.04.29-20.12.21:817][992]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-20.12.23:453][994]LogUObjectHash: Compacting FUObjectHashTables data took  24.38ms
+[2020.04.29-20.12.24:431][994]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Minimal_Default_Auto4F62248FE4540D6119BAB73ADFBAC40C5.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2020.04.29-20.12.24:444][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.230
+[2020.04.29-20.12.24:444][994]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.230
+[2020.04.29-20.12.24:445][994]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SceneCapture2D1_Blueprint] ([1] browsable assets)...
+[2020.04.29-20.12.24:445][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/SceneCapture2D1_Blueprint]
+[2020.04.29-20.12.24:461][994]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/SceneCapture2D1_Blueprint_Auto4506252D34A6291FE7E706A8DA424B564.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Autosaves/Game/SceneCapture2D1_Blueprint_Auto4.uasset'
+[2020.04.29-20.12.24:466][994]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RT_Scene_Capture] ([1] browsable assets)...
+[2020.04.29-20.12.24:481][994]OBJ SavePackage:     Rendered thumbnail for [TextureRenderTarget2D /Game/RT_Scene_Capture.RT_Scene_Capture]
+[2020.04.29-20.12.24:482][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/RT_Scene_Capture]
+[2020.04.29-20.12.24:503][994]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/RT_Scene_Capture_Auto4B2110E2B4AE76D183A73DA9E657931C9.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/Autosaves/Game/RT_Scene_Capture_Auto4.uasset'
+[2020.04.29-20.12.24:512][994]LogFileHelpers: Auto-saving content packages took 0.068
+[2020.04.29-20.12.30:107][ 12]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.29-20.13.29:573][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SceneCapture2D1_Blueprint" FILE="../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/SceneCapture2D1_Blueprint.uasset" SILENT=true
+[2020.04.29-20.13.29:607][722]LogSavePackage: Moving '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Saved/SceneCapture2D1_BlueprintEE677D16426DC3C543AF6F87259346D6.tmp' to '../../../../../../Users/Amelia/Desktop/FrostPainterTool/FrostPainterV3/Content/SceneCapture2D1_Blueprint.uasset'
+[2020.04.29-20.13.29:701][722]AssetCheck: New page: Asset Save: SceneCapture2D1_Blueprint
+[2020.04.29-20.13.29:701][722]LogContentValidation: Display: Validating Blueprint /Game/SceneCapture2D1_Blueprint.SceneCapture2D1_Blueprint
