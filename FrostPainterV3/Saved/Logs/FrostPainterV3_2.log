@@ -804,3 +804,104 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.30-09.45.47:530][988]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/FrostApplier.FrostApplier
 [2020.04.30-09.45.47:530][988]LogContentValidation: Display: Validating Material /Game/M_Ice.M_Ice
 [2020.04.30-09.45.47:530][988]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.04.30-09.48.59:479][751]LogTemp: Resetting audio stream to device id 
+[2020.04.30-09.48.59:504][751]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.30-09.48.59:504][751]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.30-09.48.59:504][751]LogAudioMixer: Display: Is Default: Yes
+[2020.04.30-09.48.59:504][751]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.30-09.48.59:504][751]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: Channel Order:
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 1: FrontRight
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 4: BackLeft
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 5: BackRight
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 6: SideLeft
+[2020.04.30-09.48.59:505][751]LogAudioMixer: Display: 7: SideRight
+[2020.04.30-10.55.20:369][772]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.04.30-10.55.20:369][772]LogTemp: Resetting audio stream to device id 
+[2020.04.30-10.55.21:204][772]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: Is Default: Yes
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: Channel Order:
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 1: FrontRight
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 4: BackLeft
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 5: BackRight
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 6: SideLeft
+[2020.04.30-10.55.21:205][772]LogAudioMixer: Display: 7: SideRight
+[2020.04.30-10.55.21:880][773]LogTemp: Resetting audio stream to device id 
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Is Default: Yes
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: Channel Order:
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 1: FrontRight
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 4: BackLeft
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 5: BackRight
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 6: SideLeft
+[2020.04.30-10.55.21:912][773]LogAudioMixer: Display: 7: SideRight
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3130E2BB-4836-BBB0-C0FB-83BC3B803CB8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=3a7d86414fc7255892cef48a0d061076%7C4be33737f50146a7abd78be0f064d67a%7Cfe208437-eb0b-47da-95ba-7f7201ed1df5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x19a1bcf7f70 [can pipeline])
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.88.211.84) port 443 (#6))
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.04.30-10.55.43:763][839]LogHttp: Warning: 0000019AB2726340: libcurl info message cache 7 (Closing connection 6)
+[2020.04.30-10.55.44:095][840]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3130E2BB-4836-BBB0-C0FB-83BC3B803CB8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=3a7d86414fc7255892cef48a0d061076%7C4be33737f50146a7abd78be0f064d67a%7Cfe208437-eb0b-47da-95ba-7f7201ed1df5&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.04.30-11.16.14:404][811]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.16.14:641][811]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2020.04.30-11.17.44:382][ 71]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.17.44:434][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.04.30-11.19.19:987][447]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.19.20:039][447]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.04.30-11.19.34:558][232]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.19.34:612][232]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.04.30-11.19.48:196][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2020.04.30-11.19.51:909][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2020.04.30-11.20.30:726][475]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.20.30:984][475]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2020.04.30-11.20.34:566][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2020.04.30-11.22.07:120][167]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.22.07:393][167]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2020.04.30-11.22.25:044][216]BlueprintLog: New page: Compile FrostApplier
+[2020.04.30-11.22.25:319][216]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.04.30-11.22.32:855][503]LogThreadingWindows: Error: Runnable thread TaskGraphThreadNP 1 crashed.
+[2020.04.30-11.22.32:855][503]LogWindows: Error: === Critical error: ===
+[2020.04.30-11.22.32:855][503]LogWindows: Error: 
+[2020.04.30-11.22.32:855][503]LogWindows: Error: Fatal error!
+[2020.04.30-11.22.32:855][503]LogWindows: Error: 
+[2020.04.30-11.22.32:855][503]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000040
+[2020.04.30-11.22.32:855][503]LogWindows: Error: 
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffafc2ecee8 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffafc061295 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffafc03b799 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffafc05cea1 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb1052931a UE4Editor-Core.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb1052a40d UE4Editor-Core.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb1053254b UE4Editor-Core.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb109a32ef UE4Editor-Core.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb109a2f94 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb706e7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: [Callstack] 0x00007ffb7262ce51 ntdll.dll!UnknownFunction []
+[2020.04.30-11.22.32:855][503]LogWindows: Error: 
+[2020.04.30-11.22.32:855][503]LogWindows: Error: Crash in runnable thread TaskGraphThreadNP 1
+[2020.04.30-11.22.32:909][503]LogExit: Executing StaticShutdownAfterError
+[2020.04.30-11.22.32:909][503]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.04.30-11.22.32:909][503]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.04.30-11.22.32:932][503]Log file closed, 04/30/20 07:22:32
