@@ -1,16 +1,9 @@
 {
 	"SourceFiles": [
-<<<<<<< Updated upstream
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor\\FrostPainterV3Editor.Build.cs",
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3\\FrostPainterV3.Build.cs",
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3.Target.cs",
-		"C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor.Target.cs"
-=======
 		"C:\\Users\\Amelia Payne\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3\\FrostPainterV3.Build.cs",
 		"C:\\Users\\Amelia Payne\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor\\FrostPainterV3Editor.Build.cs",
 		"C:\\Users\\Amelia Payne\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3.Target.cs",
 		"C:\\Users\\Amelia Payne\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor.Target.cs"
->>>>>>> Stashed changes
 	],
 	"EngineVersion": "4.24.3"
 }

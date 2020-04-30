@@ -1,17 +1,14 @@
 {
 	"Targets": [
-<<<<<<< Updated upstream
 		{
 			"Name": "FrostPainterV3",
-			"Path": "C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3.Target.cs",
+			"Path": "C:\\Users\\Amelia Payne\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FrostPainterV3Editor",
-			"Path": "C:\\Users\\Amelia\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor.Target.cs",
+			"Path": "C:\\Users\\Amelia Payne\\Desktop\\FrostPainterTool\\FrostPainterV3\\Source\\FrostPainterV3Editor.Target.cs",
 			"Type": "Editor"
 		}
-=======
->>>>>>> Stashed changes
 	]
 }
